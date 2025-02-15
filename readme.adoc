@@ -2,7 +2,7 @@
 :author: SubUnit-D817
 
 == 1.このMODについて
-　これはStellarisのポートレイトMOD作成用の雛型です。
+　これはStellarisのポートレイトMOD作成用の雛型です。 +
 　貴方のポートレイトMOD作成をお手伝いします。
  
 == 2.できること
