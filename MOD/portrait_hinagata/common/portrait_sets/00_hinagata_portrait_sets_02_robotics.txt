@@ -1,0 +1,59 @@
+# 種族のクラスとポートレイト
+# ポートレイトは昔はspecies_classesで設定していた
+
+# 機械知性
+hinagata_robo = {
+#↑種族カテゴリー内識別子：portrait_categoriesのsetsと連動しているので注意
+
+	# 種族クラス
+	# ローカライズ定義との関連付けに使用
+	species_class = MACHINE
+
+	# 利用可能な条件【変更不可】
+	conditional_portraits = {
+		randomizable = {
+			OR = {
+				has_synthetic_dawn = yes
+				has_machine_age_dlc = yes
+			}
+		}
+		playable = {
+			OR = {
+				has_synthetic_dawn = yes
+				has_machine_age_dlc = yes
+			}
+		}
+
+		# 使用するポートレイト
+		portraits = {
+			# ポートレイトの識別名
+			hinagata_robo01
+		}
+	}
+
+}
+
+# 岩石種族
+hinagata_lithoid = {
+#↑portrait_categoriesのsetsと連動しているので注意
+
+	# 種族クラス
+	# ローカライズ定義との関連付けに使用
+	species_class = LITHOID
+
+	# 利用可能な条件【変更不可】
+	conditional_portraits = {
+		randomizable = {
+			has_lithoids = yes
+		}
+		playable = {
+			has_lithoids = yes
+		}
+
+		# 使用するポートレイト
+		portraits = {
+			hinagata_lithoid01
+		}
+	}
+
+}

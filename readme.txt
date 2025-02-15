@@ -4,7 +4,8 @@
 --  更新履歴：00.00.001：2024/08/16：新規作成
 --          ：00.00.002：2024/08/17：GitHubに登録。体裁を整える。
 --          ：00.00.003：2024/08/20：portrait_categoriesを種族ごとに分割。テスト画像差し替え。
---          ：00.00.004：20yy/mm/dd：
+--          ：00.00.004：2025/02/16：都市外観名称、艦船外観名称等に悪影響があったため、内部のディレクトリ名、ファイル名を変更。
+--          ：00.00.005：20yy/mm/dd：
 --
 --  タブは８文字
 ------------------------------------------------------------------------
@@ -69,23 +70,23 @@ species_portrait_template
         │
         ├─common
         │  ├─portrait_categories					：種族選択画面表示用定義
-        │  │      00_hinagata_portrait_categories.txt			：　有機生命体用定義
-        │  │      01_hinagata_robotics_portrait_categories.txt	：　機械知性用定義
-        │  │      02_hinagata_lithoid_portrait_categories.txt		：　岩石種族用定義
+        │  │      00_hinagata_portrait_categories_01_bio.txt		：　有機生命体用定義
+        │  │      00_hinagata_portrait_categories_02_robotics.txt	：　機械知性用定義
+        │  │      00_hinagata_portrait_categories_03_lithoid.txt	：　岩石種族用定義
         │  │
         │  ├─portrait_sets						：種族ポートレイト定義
-        │  │      00_hinagata_portrait_sets.txt			：　有機生命体用定義
-        │  │      01_hinagata_robotics_portrait_sets.txt		：　機械知性用定義
-        │  │      02_hinagata_lithoid_portrait_sets.txt		：　岩石種族用定義
+        │  │      00_hinagata_portrait_sets_01_bio.txt		：　有機生命体用定義
+        │  │      00_hinagata_portrait_sets_02_robotics.txt		：　機械知性用定義
+        │  │      00_hinagata_portrait_sets_03_lithoid.txt		：　岩石種族用定義
         │  │
         │  └─species_classes						：種族定義
-        │          00_hinagata_species_classes.txt			：　有機生命体用定義
-        │          01_hinagata_robotics_species_classes.txt		：　機械知性用定義
-        │          02_hinagata_lithoid_species_classes.txt		：　岩石種族用定義
+        │          00_hinagata_species_classes_01_bio.txt		：　有機生命体用定義
+        │          00_hinagata_species_classes_02_robotics.txt		：　機械知性用定義
+        │          00_hinagata_species_classes_03_lithoid.txt		：　岩石種族用定義
         │
         ├─gfx
         │  ├─models							：ポートレイト画像格納フォルダ
-        │  │  ├─hinagata						：有機生命体用ポートレイト画像
+        │  │  ├─hinagata_01_bio					：有機生命体用ポートレイト画像
         │  │  │      char098.dds					：　テスト画像[役人/男性]	※役職でわける必要は無い
         │  │  │      char099.dds					：　テスト画像[役人/女性]
         │  │  │      char198.dds					：　テスト画像[科学者/男性]
@@ -97,35 +98,35 @@ species_portrait_template
         │  │  │      char998.dds					：　テスト画像[汎用/男性]
         │  │  │      char999.dds					：　テスト画像[汎用/女性]
         │  │  │
-        │  │  ├─hinagata_lithoid					：岩石種族用ポートレイト画像
-        │  │  │      lithoid098.dds					：　テスト画像[役人/男性]	※役職でわける必要は無い
-        │  │  │      lithoid099.dds					：　テスト画像[役人/女性]
-        │  │  │      lithoid198.dds					：　テスト画像[科学者/男性]
-        │  │  │      lithoid199.dds					：　テスト画像[科学者/女性]
-        │  │  │      lithoid298.dds					：　テスト画像[司令官/男性]
-        │  │  │      lithoid299.dds					：　テスト画像[司令官/女性]
-        │  │  │      lithoid398.dds					：　テスト画像[使節/男性]
-        │  │  │      lithoid399.dds					：　テスト画像[使節/女性]
-        │  │  │      lithoid998.dds					：　テスト画像[汎用/男性]
-        │  │  │      lithoid999.dds					：　テスト画像[汎用/女性]
+        │  │  ├─hinagata_02_robotics				：機械知性用ポートレイト画像
+        │  │  │      robo098.dds					：　テスト画像[役人/男性]	※役職でわける必要は無い                
+        │  │  │      robo099.dds					：　テスト画像[役人/女性]
+        │  │  │      robo198.dds					：　テスト画像[科学者/男性]
+        │  │  │      robo199.dds					：　テスト画像[科学者/女性]
+        │  │  │      robo298.dds					：　テスト画像[司令官/男性]
+        │  │  │      robo299.dds					：　テスト画像[司令官/女性]
+        │  │  │      robo398.dds					：　テスト画像[使節/男性]
+        │  │  │      robo399.dds					：　テスト画像[使節/女性]
+        │  │  │      robo998.dds					：　テスト画像[汎用/男性]
+        │  │  │      robo999.dds					：　テスト画像[汎用/女性]
         │  │  │
-        │  │  └─hinagata_robotics					：機械知性用ポートレイト画像
-        │  │          robo098.dds					：　テスト画像[役人/男性]	※役職でわける必要は無い
-        │  │          robo099.dds					：　テスト画像[役人/女性]
-        │  │          robo198.dds					：　テスト画像[科学者/男性]
-        │  │          robo199.dds					：　テスト画像[科学者/女性]
-        │  │          robo298.dds					：　テスト画像[司令官/男性]
-        │  │          robo299.dds					：　テスト画像[司令官/女性]
-        │  │          robo398.dds					：　テスト画像[使節/男性]
-        │  │          robo399.dds					：　テスト画像[使節/女性]
-        │  │          robo998.dds					：　テスト画像[汎用/男性]
-        │  │          robo999.dds					：　テスト画像[汎用/女性]
+        │  │  └─hinagata_03_lithoid					：岩石種族用ポートレイト画像
+        │  │          lithoid098.dds					：　テスト画像[役人/男性]	※役職でわける必要は無い
+        │  │          lithoid099.dds					：　テスト画像[役人/女性]
+        │  │          lithoid198.dds					：　テスト画像[科学者/男性]
+        │  │          lithoid199.dds					：　テスト画像[科学者/女性]
+        │  │          lithoid298.dds					：　テスト画像[司令官/男性]
+        │  │          lithoid299.dds					：　テスト画像[司令官/女性]
+        │  │          lithoid398.dds					：　テスト画像[使節/男性]
+        │  │          lithoid399.dds					：　テスト画像[使節/女性]
+        │  │          lithoid998.dds					：　テスト画像[汎用/男性]
+        │  │          lithoid999.dds					：　テスト画像[汎用/女性]
         │  │
         │  └─portraits
         │      └─portraits						：ポートレイト定義
-        │              00_hinagata_portraits.txt			：　有機生命体用定義
-        │              01_hinagata_robotics_portraits.txt		：　機械知性用定義
-        │              02_hinagata_lithoid_portraits.txt		：　岩石種族用定義
+        │              00_hinagata_portraits_01_bio.txt		：　有機生命体用定義
+        │              00_hinagata_portraits_02_robotics.txt		：　機械知性用定義
+        │              00_hinagata_portraits_03_lithoid.txt		：　岩石種族用定義
         │
         └─localisation						：ローカライズ定義（言語ごと）
             └─japanese						：日本語用定義（他には英/葡/仏/独/波/露/西/韓/中がある）
