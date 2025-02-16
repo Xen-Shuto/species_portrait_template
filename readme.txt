@@ -87,40 +87,40 @@ species_portrait_template
         ├─gfx
         │  ├─models							：ポートレイト画像格納フォルダ
         │  │  ├─hinagata_01_bio					：有機生命体用ポートレイト画像
-        │  │  │      char098.dds					：　テスト画像[役人/男性]	※役職でわける必要は無い
-        │  │  │      char099.dds					：　テスト画像[役人/女性]
-        │  │  │      char198.dds					：　テスト画像[科学者/男性]
-        │  │  │      char199.dds					：　テスト画像[科学者/女性]
-        │  │  │      char298.dds					：　テスト画像[司令官/男性]
-        │  │  │      char299.dds					：　テスト画像[司令官/女性]
-        │  │  │      char398.dds					：　テスト画像[使節/男性]
-        │  │  │      char399.dds					：　テスト画像[使節/女性]
-        │  │  │      char998.dds					：　テスト画像[汎用/男性]
-        │  │  │      char999.dds					：　テスト画像[汎用/女性]
+        │  │  │      hinagata_bio_sample001.dds			：　テスト画像[役人/男性]	※役職でわける必要は無い
+        │  │  │      hinagata_bio_sample002.dds			：　テスト画像[役人/女性]
+        │  │  │      hinagata_bio_sample101.dds			：　テスト画像[科学者/男性]
+        │  │  │      hinagata_bio_sample102.dds			：　テスト画像[科学者/女性]
+        │  │  │      hinagata_bio_sample201.dds			：　テスト画像[司令官/男性]
+        │  │  │      hinagata_bio_sample202.dds			：　テスト画像[司令官/女性]
+        │  │  │      hinagata_bio_sample301.dds			：　テスト画像[使節/男性]
+        │  │  │      hinagata_bio_sample302.dds			：　テスト画像[使節/女性]
+        │  │  │      hinagata_bio_sample901.dds			：　テスト画像[汎用/男性]
+        │  │  │      hinagata_bio_sample902.dds			：　テスト画像[汎用/女性]
         │  │  │
         │  │  ├─hinagata_02_robotics				：機械知性用ポートレイト画像
-        │  │  │      robo098.dds					：　テスト画像[役人/男性]	※役職でわける必要は無い                
-        │  │  │      robo099.dds					：　テスト画像[役人/女性]
-        │  │  │      robo198.dds					：　テスト画像[科学者/男性]
-        │  │  │      robo199.dds					：　テスト画像[科学者/女性]
-        │  │  │      robo298.dds					：　テスト画像[司令官/男性]
-        │  │  │      robo299.dds					：　テスト画像[司令官/女性]
-        │  │  │      robo398.dds					：　テスト画像[使節/男性]
-        │  │  │      robo399.dds					：　テスト画像[使節/女性]
-        │  │  │      robo998.dds					：　テスト画像[汎用/男性]
-        │  │  │      robo999.dds					：　テスト画像[汎用/女性]
+        │  │  │      hinagata_robo_sample001.dds			：　テスト画像[役人/男性]	※役職でわける必要は無い                
+        │  │  │      hinagata_robo_sample002.dds			：　テスト画像[役人/女性]
+        │  │  │      hinagata_robo_sample101.dds			：　テスト画像[科学者/男性]
+        │  │  │      hinagata_robo_sample102.dds			：　テスト画像[科学者/女性]
+        │  │  │      hinagata_robo_sample201.dds			：　テスト画像[司令官/男性]
+        │  │  │      hinagata_robo_sample202.dds			：　テスト画像[司令官/女性]
+        │  │  │      hinagata_robo_sample301.dds			：　テスト画像[使節/男性]
+        │  │  │      hinagata_robo_sample302.dds			：　テスト画像[使節/女性]
+        │  │  │      hinagata_robo_sample901.dds			：　テスト画像[汎用/男性]
+        │  │  │      hinagata_robo_sample902.dds			：　テスト画像[汎用/女性]
         │  │  │
         │  │  └─hinagata_03_lithoid					：岩石種族用ポートレイト画像
-        │  │          lithoid098.dds					：　テスト画像[役人/男性]	※役職でわける必要は無い
-        │  │          lithoid099.dds					：　テスト画像[役人/女性]
-        │  │          lithoid198.dds					：　テスト画像[科学者/男性]
-        │  │          lithoid199.dds					：　テスト画像[科学者/女性]
-        │  │          lithoid298.dds					：　テスト画像[司令官/男性]
-        │  │          lithoid299.dds					：　テスト画像[司令官/女性]
-        │  │          lithoid398.dds					：　テスト画像[使節/男性]
-        │  │          lithoid399.dds					：　テスト画像[使節/女性]
-        │  │          lithoid998.dds					：　テスト画像[汎用/男性]
-        │  │          lithoid999.dds					：　テスト画像[汎用/女性]
+        │  │          hinagata_lit_sample001.dds			：　テスト画像[役人/男性]	※役職でわける必要は無い
+        │  │          hinagata_lit_sample002.dds			：　テスト画像[役人/女性]
+        │  │          hinagata_lit_sample101.dds			：　テスト画像[科学者/男性]
+        │  │          hinagata_lit_sample102.dds			：　テスト画像[科学者/女性]
+        │  │          hinagata_lit_sample201.dds			：　テスト画像[司令官/男性]
+        │  │          hinagata_lit_sample202.dds			：　テスト画像[司令官/女性]
+        │  │          hinagata_lit_sample301.dds			：　テスト画像[使節/男性]
+        │  │          hinagata_lit_sample302.dds			：　テスト画像[使節/女性]
+        │  │          hinagata_lit_sample901.dds			：　テスト画像[汎用/男性]
+        │  │          hinagata_lit_sample902.dds			：　テスト画像[汎用/女性]
         │  │
         │  └─portraits
         │      └─portraits						：ポートレイト定義
@@ -328,4 +328,3 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 
 　・ここまできたら正常にゲームがプレイできるはずです。
 　　おつかれさまでした！
-
