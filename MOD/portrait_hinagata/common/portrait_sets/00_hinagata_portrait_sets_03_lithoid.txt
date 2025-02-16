@@ -1,0 +1,28 @@
+# 種族のクラスとポートレイト
+# ポートレイトは昔はspecies_classesで設定していた
+
+# 岩石種族
+hinagata_lithoid = {
+#↑種族カテゴリー内識別子：portrait_categoriesのsetsと連動しているので注意
+
+	# 種族クラス
+	# ローカライズ定義との関連付けに使用
+	species_class = LITHOID
+
+	# 利用可能な条件【変更不可】
+	conditional_portraits = {
+		randomizable = {
+			has_lithoids = yes
+		}
+		playable = {
+			has_lithoids = yes
+		}
+
+		# 使用するポートレイト
+		portraits = {
+			# ポートレイトの識別名
+			hinagata_lithoid01
+		}
+	}
+
+}

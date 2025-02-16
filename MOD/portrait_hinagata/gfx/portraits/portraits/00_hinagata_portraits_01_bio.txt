@@ -1,0 +1,334 @@
+# ポートレイトの設定
+
+# 画像ファイルの指定
+#   役職別にする必要は無いが、役人らしい恰好、軍人らしい恰好・・・と
+#   容姿を分けたい場合は、そうすることも可能
+portraits = {
+# 役人用
+	hinagata_bio_sample001 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample001.dds"}
+	hinagata_bio_sample002 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample002.dds"}
+# 科学者用
+	hinagata_bio_sample101 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample101.dds"}
+	hinagata_bio_sample102 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample102.dds"}
+# 司令官用
+	hinagata_bio_sample201 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample201.dds"}
+	hinagata_bio_sample202 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample202.dds"}
+# 使節用
+	hinagata_bio_sample301 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample301.dds"}
+	hinagata_bio_sample302 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample302.dds"}
+# 汎用
+	hinagata_bio_sample901 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample901.dds"}
+	hinagata_bio_sample902 = {texturefile = "gfx/models/hinagata_01_bio/hinagata_bio_sample902.dds"}
+}
+
+# ポートレイトのグループ
+# 複数パターンを用意する場合はportrait_groupsごと増やすこと
+portrait_groups = {
+
+	# ポートレイトの識別名と設定
+	# portrait_setsのportraitsで指定することで使えるようになる
+	hinagata_bio01 = {
+
+		# デフォルトで使用するポートレイト
+		# 外見選択時の一覧に表示される
+		default = hinagata_bio_sample901
+
+		# 外見選択時に統治者として表示されるポートレイト
+		# 複数記述するとランダムで表示
+		# 最初の統治者の選択（遺伝的形質）にも使われる
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						# 男性または性別不詳
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					hinagata_bio_sample001
+					hinagata_bio_sample101
+					hinagata_bio_sample201
+					hinagata_bio_sample301
+					hinagata_bio_sample901
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						# 女性または性別不詳
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					hinagata_bio_sample002
+					hinagata_bio_sample102
+					hinagata_bio_sample202
+					hinagata_bio_sample302
+					hinagata_bio_sample902
+				}
+			}
+		}
+		# species scope
+		# ジェネリック？ 汎用的に使用？
+		species = { # generic portrait for a species
+			add = {
+				# 女性以外（男性または性別不詳）
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					hinagata_bio_sample001
+					hinagata_bio_sample101
+					hinagata_bio_sample201
+					hinagata_bio_sample301
+					hinagata_bio_sample901
+				}
+			}
+			add = {
+				# 男性以外（女性または性別不詳）
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					hinagata_bio_sample002
+					hinagata_bio_sample102
+					hinagata_bio_sample202
+					hinagata_bio_sample302
+					hinagata_bio_sample902
+				}
+			}
+		}
+		# pop scope
+		# 惑星上のPOP
+		pop = { # for a specific pop
+			add = {
+				trigger = {
+				# 女性以外（男性または性別不詳）
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					hinagata_bio_sample001
+					hinagata_bio_sample101
+					hinagata_bio_sample201
+					hinagata_bio_sample301
+					hinagata_bio_sample901
+				}
+			}
+			add = {
+				trigger = {
+					# 男性以外（女性または性別不詳）
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					hinagata_bio_sample002
+					hinagata_bio_sample102
+					hinagata_bio_sample202
+					hinagata_bio_sample302
+					hinagata_bio_sample902
+				}
+			}
+		}
+		# leader scope
+		# リーダーのポートレイト
+		leader = { # official:役人, scientists:科学者, commander:司令官, envoy:使節
+			# 役職ごとにわける必要がない場合の設定
+			##add = {
+			##	# 男性または性別不詳
+			##	trigger = {
+			##		OR = {
+			##			gender = male
+			##			gender = indeterminable
+			##		}
+			##	}
+			##	portraits = {
+			##		hinagata_bio_sample001
+			##		hinagata_bio_sample101
+			##		hinagata_bio_sample201
+			##		hinagata_bio_sample301
+			##		hinagata_bio_sample901
+			##	}
+			##}
+			##add = {
+			##	# 女性または性別不詳
+			##	trigger = {
+			##		OR = {
+			##			gender = female
+			##			gender = indeterminable
+			##		}
+			##	}
+			##	portraits = {
+			##		hinagata_bio_sample002
+			##		hinagata_bio_sample102
+			##		hinagata_bio_sample202
+			##		hinagata_bio_sample302
+			##		hinagata_bio_sample902
+			##	}
+			##}
+
+			# 役職ごとにわける場合の設定
+			# 役人
+			# 昔は総督という名称だった（leader_class = governor）
+			add = {
+				# 男性または性別不詳
+				trigger = {
+					leader_class = official
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample001
+					hinagata_bio_sample901
+				}
+			}
+			add = {
+				# 役人で、女性または性別不詳
+				trigger = {
+					leader_class = official
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample002
+					hinagata_bio_sample902
+				}
+			}
+			# 科学者
+			add = {
+				# 科学者で、男性または性別不詳
+				trigger = {
+					leader_class = scientist
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample101
+					hinagata_bio_sample901
+				}
+			}
+			add = {
+				# 科学者で、女性または性別不詳
+				trigger = {
+					leader_class = scientist
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample102
+					hinagata_bio_sample902
+				}
+			}
+			# 司令官
+			# 昔は提督及び将軍という名称だった（leader_class = admiral, general）
+			# ちなみに提督は艦隊専用、将軍は輸送艦隊専用
+			add = {
+				# 司令官で、男性または性別不詳
+				trigger = {
+					leader_class = commander
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample201
+					hinagata_bio_sample901
+				}
+			}
+			add = {
+				# 司令官で、女性または性別不詳
+				trigger = {
+					leader_class = commander
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample202
+					hinagata_bio_sample902
+				}
+			}
+			# 使節
+			add = {
+				# 使節で、男性または性別不詳
+				trigger = {
+					leader_class = envoy
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample301
+					hinagata_bio_sample901
+				}
+			}
+			add = {
+				# 使節で、女性または性別不詳
+				trigger = {
+					leader_class = envoy
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample302
+					hinagata_bio_sample902
+				}
+			}
+		}
+		# leader scope
+		# リーダーのポートレイト（統治者専用？　上のと何が違う？）
+		ruler = {
+			add = {
+				# 男性または性別不詳
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample001
+					hinagata_bio_sample101
+					hinagata_bio_sample201
+					hinagata_bio_sample301
+					hinagata_bio_sample901
+				}
+			}
+			add = {
+				# 女性または性別不詳
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					hinagata_bio_sample002
+					hinagata_bio_sample102
+					hinagata_bio_sample202
+					hinagata_bio_sample302
+					hinagata_bio_sample902
+				}
+			}
+		}
+	}
+}

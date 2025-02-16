@@ -1,0 +1,18 @@
+# 種族一覧の設定（岩石種族）
+
+# 種族グループ
+hinagata_category = {
+#↑種族グループ識別子
+
+	# 種族のグループ名（人類とか軟体人とか）
+	# 名称はlocalisationで言語ごとに設定する
+	name = hinagata_category
+
+	# 選択した種族グループで選択できる種族（ポートレイト）
+	# portrait_setsで定義している種族カテゴリー内識別子を設定する
+	sets = {
+		# 岩石種族用
+		hinagata_lithoid
+	}
+}
+

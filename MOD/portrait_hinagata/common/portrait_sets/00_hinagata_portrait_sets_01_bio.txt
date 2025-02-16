@@ -1,0 +1,18 @@
+# 種族のクラスとポートレイト
+# ポートレイトは昔はspecies_classesで設定していた
+
+# 有機生命体
+hinagata_bio = {
+#↑種族カテゴリー内識別子：portrait_categoriesのsetsと連動しているので注意
+
+	# 種族クラス
+	# ローカライズ定義との関連付けに使用
+	species_class = HUM
+
+	# 使用するポートレイト
+	portraits = {
+		# ポートレイトの識別名
+		hinagata_bio01
+	}
+
+}

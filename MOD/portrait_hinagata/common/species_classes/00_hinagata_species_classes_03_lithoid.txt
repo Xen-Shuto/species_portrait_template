@@ -1,0 +1,51 @@
+# 種族クラスの設定（岩石種族）
+
+HNGTL = {
+#↑種族識別子：localisationの各種言語用の定義や名称リストとの関連付けに使用しているので注意
+
+	# 種族タイプ
+	# 以下の６種類　オリジナルの種族も作れるが、このテンプレートではそこまで対応しない
+	#  BIOLOGICAL: 有機生命体
+	#  ROBOT     : ロボット
+	#  MACHINE   : 機械生命体
+	#  PRESAPIENT: 準知的生命体
+	#  LITHOID   : 岩石生命体
+	#  OTHER     : その他
+	archetype = LITHOID
+
+	# この種族を利用可能な条件【変更不可】
+	possible = {
+		authority = {
+			NOT = {
+				value = auth_machine_intelligence
+				text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE
+			}
+		}
+	}
+
+	# プレイ可能な条件【変更不可】
+	playable = { has_lithoids = yes }
+	randomized = { has_lithoids = yes }
+
+	# デフォルト種族特性「岩石種族」【変更不可】
+	trait = "trait_lithoid"
+
+	# 性別の有無(yes/no)
+	# この種族は性別があるか(初期値:yes)
+	# 統治者の設定時に男性のみ/女性のみ/性別無しを選択できる
+	# noにすると性別はなくなり、上記の選択もなくなる
+	#gender = yes
+
+	# リーダー雇用時の年齢下限／上限
+	# 帝国作成時に変更できないマスク設定
+	#leader_age_min = 5
+	#leader_age_max = 10
+
+	# 都市外観と艦船外観の初期選択値
+	# 帝国作成時に変更できる
+	graphical_culture = lithoid_01
+
+	# popを動かしたときの音
+	move_pop_sound_effect = "reptilian_pops_move"
+
+}
