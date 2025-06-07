@@ -6,7 +6,6 @@ hinagata_lithoid = {
 #↑種族カテゴリー内識別子：portrait_categoriesのsetsと連動しているので注意
 
 	# 種族クラス
-	# ローカライズ定義との関連付けに使用
 	species_class = LITHOID
 
 	# 利用可能な条件【変更不可】
@@ -21,7 +20,7 @@ hinagata_lithoid = {
 		# 使用するポートレイト
 		portraits = {
 			# ポートレイトの識別名
-			hinagata_lithoid01
+			"hinagata_lithoid01"
 		}
 	}
 
