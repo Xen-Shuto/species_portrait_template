@@ -1,0 +1,86 @@
+﻿l_japanese:
+#↑日本語であることの指定（消すな！）
+########################################################################
+# 種族に割り当てる呼び名など
+# portrait_sets の species_class で関連付け
+# plural は複数形
+########################################################################
+# 種族の名前（全角７文字まで。超えても良いが、画面よっては表示しきれない場合がある。）
+ HNGT_BIO: "雛型"
+ HNGT_BIO_plural: "雛型's"
+
+# 種族の形容詞（全角７文字まで。超えても良いが、画面よっては表示しきれない場合がある。）
+ HNGT_BIO_adj: "雛型"
+
+# 種族の概説
+ HNGT_BIO_desc: "MOD"
+
+# 種族を揶揄する言葉（侮辱）
+# 後ろの数字を増やすことで複数設定可能
+ HNGT_BIO_insult_01: "獣"
+ HNGT_BIO_insult_plural_01: "獣ども"
+
+# 種族を揶揄する言葉（称賛）
+# 後ろの数字を増やすことで複数設定可能
+ HNGT_BIO_compliment_01: "スフィンクス"
+ HNGT_BIO_compliment_plural_01: "スフィンクスたち"
+
+# 種族の子供を意味する言葉
+ HNGT_BIO_spawn: "子供"
+ HNGT_BIO_spawn_plural: "子供たち"
+
+# 種族を侮辱するときの説明的なノイズ音
+# 5つ書く必要がある。
+#
+# 英wikiの説明と訳
+#"CLASS_sound_X" denotes descriptive noises (e.g. "stupid Robot, will you stop that beeping"). Five must be written.
+#「CLASS_sound_X」は、説明的なノイズ音（例：「バカロボット、そのビープ音をやめてくれないか」）を示します。5つ書く必要があります。
+#
+# ゲーム本体の英語は以下の通り（ヒューマノイドの場合）
+# HUM_sound_01:0 "growling"		うなり声（威嚇に近い。例えば犬の唸り声など）
+# HUM_sound_02:0 "grunting"		うなり声（不満。例えばブーイング）
+# HUM_sound_03:0 "yapping"		小うるさい感じの音（キャンキャン吼える 等）
+# HUM_sound_04:0 "yowling"		呻き声や喚き声。悲痛な音。
+# HUM_sound_05:0 "mewling"		弱々しい鳴き声など。弱々しい音。
+#
+# ゲーム本体の日本語訳
+# HUM_sound_01: "グルルル"
+# HUM_sound_02: "ブーブー"
+# HUM_sound_03: "キャンキャン"
+# HUM_sound_04: "ギャンギャン"
+# HUM_sound_05: "メソメソ"
+#
+# 上記を参考に設定
+ HNGT_BIO_sound_01: "グルルル"
+ HNGT_BIO_sound_02: "ブーブー"
+ HNGT_BIO_sound_03: "キャンキャン"
+ HNGT_BIO_sound_04: "ギャンギャン"
+ HNGT_BIO_sound_05: "メソメソ"
+
+# 種族の身体部位の名称
+# 種族が食物を消化するための器官、人間で言う胃に当たる部位
+ HNGT_BIO_organ: "胃"
+ HNGT_BIO_organ_plural: "胃"
+
+# 種族が食物を摂取するための器官、人間で言う口に当たる部位
+ HNGT_BIO_mouth: "口"
+
+# 種族が音を聴くための器官、人間で言う耳に当たる部位
+ HNGT_BIO_ear: "耳"
+ HNGT_BIO_ear_plural: "耳"
+
+# 種族が物を拾うために使う部位、人間でいう手に当たる部位
+ HNGT_BIO_hand: "手"
+ HNGT_BIO_hand_plural: "手"
+
+# 種族が食物を細かくするための器官、人間で言う歯に当たる部位
+ HNGT_BIO_tooth: "歯"
+ HNGT_BIO_tooth_plural: "歯"
+
+# 種族があとから発掘などされた時に表現する物。化石とか残骸とか
+ HNGT_BIO_fossil: "化石"
+ HNGT_BIO_fossil_plural: "化石"
+
+# 種族のfossilとして残る物？ 骨格とか部品とか
+ HNGT_BIO_remnant: "骨格"
+ HNGT_BIO_remnant_plural: "骨格"

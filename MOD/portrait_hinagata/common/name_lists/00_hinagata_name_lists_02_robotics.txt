@@ -1,0 +1,381 @@
+﻿### hinagata robotics
+### ベースは X_MACHINE_AGE3.txt
+### オリジナルで名前リストを作成する場合は、localisation/japanese/name_lists/ に
+### name_list_(任意の名前)_l_japanese.yml を作成して名称を定義すること。
+### Created by SubUnit-D817
+
+HNGT_ROBO = {
+	selectable = {
+		always = yes
+	}
+	ship_names = {
+
+		# 汎用
+		generic = {
+			INDIMACHINES2_SHIP_Mercura INDIMACHINES2_SHIP_Vulcana INDIMACHINES2_SHIP_Vesta INDIMACHINES2_SHIP_Forto INDIMACHINES2_SHIP_Medis INDIMACHINES2_SHIP_Hadron INDIMACHINES2_SHIP_Trajanus INDIMACHINES2_SHIP_Certumne INDIMACHINES2_SHIP_Egeria INDIMACHINES2_SHIP_Gideria INDIMACHINES2_SHIP_Volturna INDIMACHINES2_SHIP_Mefitea INDIMACHINES2_SHIP_Cardora INDIMACHINES2_SHIP_Paleno INDIMACHINES2_SHIP_Sancta INDIMACHINES2_SHIP_Mutae INDIMACHINES2_SHIP_Aodere INDIMACHINES2_SHIP_Quirin INDIMACHINES2_SHIP_Tychon INDIMACHINES2_SHIP_Hesperi INDIMACHINES2_SHIP_Pavorne INDIMACHINES2_SHIP_Fornaxi INDIMACHINES2_SHIP_Favonie INDIMACHINES2_SHIP_Ruminare INDIMACHINES2_SHIP_Feron INDIMACHINES2_SHIP_Volkan INDIMACHINES2_SHIP_Suadela INDIMACHINES2_SHIP_Redusa INDIMACHINES2_SHIP_Robigae INDIMACHINES2_SHIP_Carnale INDIMACHINES2_SHIP_Laeteca INDIMACHINES2_SHIP_Hoplon INDIMACHINES2_SHIP_Spartis INDIMACHINES2_SHIP_Peltast INDIMACHINES2_SHIP_Phalan INDIMACHINES2_SHIP_Croete INDIMACHINES2_SHIP_Rhodis INDIMACHINES2_SHIP_Xiphos INDIMACHINES2_SHIP_Corinea INDIMACHINES2_SHIP_Scirata INDIMACHINES2_SHIP_Neodamo INDIMACHINES2_SHIP_Therami INDIMACHINES2_SHIP_Thurefoi INDIMACHINES2_SHIP_Psalei INDIMACHINES2_SHIP_Tarantis INDIMACHINES2_SHIP_Laminae INDIMACHINES2_SHIP_Chalcis INDIMACHINES2_SHIP_Saerapis INDIMACHINES2_SHIP_Cheiros INDIMACHINES2_SHIP_Dolixos INDIMACHINES2_SHIP_Casagrane
+		}
+
+		# コルベット
+		corvette = {
+		}
+
+		# 駆逐艦
+		destroyer = {
+		}
+
+		# 巡洋艦
+		cruiser = {
+		}
+
+		# 戦艦
+		battleship = {
+		}
+
+		# タイタン
+		titan = {
+		}
+
+		# コロッサス
+		colossus = {
+		}
+
+		# ジャガーノート
+		juggernaut = {
+		}
+
+		# 調査船
+		science = {
+		}
+
+		# コロニー船
+		colonizer = {
+		}
+
+		# 民間コロニー船
+		sponsored_colonizer = { # 汎用的な名前が存在しない場合に必要
+		}
+
+		# 建設船
+		constructor = {
+		}
+
+		# 輸送艦
+		transport = {
+		}
+
+		# 防衛プラットフォーム
+		military_station_small = {
+		}
+
+		# イオン砲
+		ion_cannon = {
+		}
+	}
+
+	# 船体クラス名称
+	ship_class_names = {
+		generic = {
+		}
+	}
+
+	# 艦隊名称
+	fleet_names = {
+		# ランダム艦隊名
+		random_names = {
+		}
+		# 通番艦隊名（第1艦隊、第2艦隊...など
+		sequential_name = INDIMACHINES2_FLEET_fleet_names_ORD
+	}
+
+	# 地上軍名称
+	army_names = {
+
+		# 汎用
+		generic = {
+			sequential_name = INDIMACHINES2_assault_army_ORD
+		}
+
+		# 防衛アンドロイド軍団
+		machine_defense = {
+			sequential_name = INDIMACHINES2_defense_army_ORD
+		}
+
+		# 戦闘アンドロイド軍団
+		machine_assault_1 = {
+			sequential_name = INDIMACHINES2_assault_army_ORD
+		}
+
+		# 上級戦闘アンドロイド軍団
+		machine_assault_2 = {
+			sequential_name = INDIMACHINES2_assault_army_ORD
+		}
+
+		# 巨大戦闘アンドロイド
+		machine_assault_3 = {
+			sequential_name = INDIMACHINES2_assault_army_ORD
+		}
+
+		# 防衛軍
+		defense_army = {
+			sequential_name = INDIMACHINES2_defense_army_ORD
+		}
+
+		# 侵攻軍
+		assault_army = {
+			sequential_name = INDIMACHINES2_assault_army_ORD
+		}
+
+		# 奴隷軍団
+		slave_army = {
+			sequential_name = INDIMACHINES2_slave_army_ORD
+		}
+
+		# クローン軍団
+		clone_army = {
+			sequential_name = INDIMACHINES2_clone_army_ORD
+		}
+
+		# 完全なクローン軍団
+		perfected_clone_army = {
+			sequential_name = INDIMACHINES2_clone_army_ORD
+		}
+
+		# 死者の軍団
+		undead_army = {
+			sequential_name = INDIMACHINES2_undead_army_ORD
+		}
+
+		# 侵攻ロボット軍団
+		robotic_army = {
+			sequential_name = INDIMACHINES2_robotic_army_ORD
+		}
+
+		# 防衛ロボット軍団
+		robotic_defense_army = {
+			sequential_name = INDIMACHINES2_robotic_defense_army_ORD
+		}
+
+		# 超能力軍団
+		psionic_army = {
+			sequential_name = INDIMACHINES2_psionic_army_ORD
+		}
+
+		# ゼノモーフ軍団
+		xenomorph_army = {
+			sequential_name = INDIMACHINES2_xenomorph_army_ORD
+		}
+
+		# 遺伝子強化兵軍団
+		gene_warrior_army = {
+			sequential_name = INDIMACHINES2_gene_warrior_army_ORD
+		}
+
+		# 守備隊
+		occupation_army = {
+			sequential_name = INDIMACHINES2_occupation_army_ORD
+		}
+
+		# 守備隊（機械）
+		individual_machine_occupation_army = {
+			sequential_name = INDIMACHINES2_occupation_army_ORD
+		}
+
+		# ロボット守備隊
+		robotic_occupation_army = {
+			sequential_name = INDIMACHINES2_robotic_occupation_army_ORD
+		}
+
+		# 原始的な地上軍
+		primitive_army = {
+			sequential_name = INDIMACHINES2_primitive_army_ORD
+		}
+
+		# 工業化時代の地上軍
+		industrial_army = {
+			sequential_name = INDIMACHINES2_industrial_army_ORD
+		}
+
+		# ポスト原子力時代の地上軍
+		postatomic_army = {
+			sequential_name = INDIMACHINES2_postatomic_army_ORD
+		}
+
+		# ワープリング
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		# 準知的生命体の群れ
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+
+		# 準知的生命体の大群
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	# 惑星名称
+	planet_names = {
+
+		# 汎用
+		generic = {
+			names = {
+				INDIMACHINES2_PLANET_Tranto INDIMACHINES2_PLANET_Termina INDIMACHINES2_PLANET_Gavia INDIMACHINES2_PLANET_Acreon INDIMACHINES2_PLANET_Relicon INDIMACHINES2_PLANET_Aysell INDIMACHINES2_PLANET_Comorell INDIMACHINES2_PLANET_Senten INDIMACHINES2_PLANET_Rossan INDIMACHINES2_PLANET_Isgane INDIMACHINES2_PLANET_Havo INDIMACHINES2_PLANET_Wallam INDIMACHINES2_PLANET_Kalvan INDIMACHINES2_PLANET_Siwevva INDIMACHINES2_PLANET_Frolin INDIMACHINES2_PLANET_Yark INDIMACHINES2_PLANET_Wanva INDIMACHINES2_PLANET_Cynnak INDIMACHINES2_PLANET_Natran INDIMACHINES2_PLANET_Dallo INDIMACHINES2_PLANET_Harisel INDIMACHINES2_PLANET_Onoria INDIMACHINES2_PLANET_Vatro INDIMACHINES2_PLANET_Triso INDIMACHINES2_PLANET_Grivia INDIMACHINES2_PLANET_Aspia INDIMACHINES2_PLANET_Rihone INDIMACHINES2_PLANET_Elgron INDIMACHINES2_PLANET_Laria INDIMACHINES2_PLANET_Orell INDIMACHINES2_PLANET_Oltain INDIMACHINES2_PLANET_Niwator INDIMACHINES2_PLANET_Momul INDIMACHINES2_PLANET_Ryddun INDIMACHINES2_PLANET_Utarov INDIMACHINES2_PLANET_Sanvo INDIMACHINES2_PLANET_Galav INDIMACHINES2_PLANET_Solitu INDIMACHINES2_PLANET_Aphina INDIMACHINES2_PLANET_Nawan INDIMACHINES2_PLANET_Falmo INDIMACHINES2_PLANET_Demen INDIMACHINES2_PLANET_Raystra INDIMACHINES2_PLANET_Yosma INDIMACHINES2_PLANET_Callan INDIMACHINES2_PLANET_Plaget INDIMACHINES2_PLANET_Volor INDIMACHINES2_PLANET_Odricca INDIMACHINES2_PLANET_Asador INDIMACHINES2_PLANET_Lansid
+			}
+		}
+
+		# 砂漠型惑星
+		pc_desert = {
+			names = {
+				INDIMACHINES2_PLANET_Amaryl INDIMACHINES2_PLANET_Cleon
+			}
+		}
+
+		# 熱帯型惑星
+		pc_tropical = {
+			names = {
+				INDIMACHINES2_PLANET_Riose INDIMACHINES2_PLANET_Darell
+			}
+		}
+
+		# 乾燥型惑星
+		pc_arid = {
+			names = {
+				INDIMACHINES2_PLANET_Prime_Radiant
+			}
+		}
+
+		# 大陸型惑星
+		pc_continental = {
+			names = {
+				INDIMACHINES2_PLANET_Salvor INDIMACHINES2_PLANET_Baley
+			}
+		}
+
+		# 海洋型惑星
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		# ツンドラ型惑星
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		# 極寒型惑星
+		pc_arctic = {
+			names = {
+				INDIMACHINES2_PLANET_Dornick INDIMACHINES2_PLANET_Panell
+			}
+		}
+
+		# サバンナ型惑星
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		# 高山型惑星
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	# キャラクター名称
+	character_names = {
+		# 名前は、単独でフルネームとして使用される場合もあれば、
+		# ファーストネームとセカンドネームの組み合わせとして使用される場合もあります。
+		# フルネームと複合名（組み合わせた名前）の両方が使用可能な場合、
+		# 50%の割合でどちらか一方を使用します。
+
+		# 男性/女性キャラクターの場合、
+		# 　対応する性別別のリストが空でない場合に使用されます。
+		# 　そうでない場合は性別を問わないリストを使用されます。
+		# 性別が不明なキャラクターの場合、
+		# 　性別不詳の名前が利用可能な場合はそれを使用します。
+		# 　両方の性別が利用可能な場合、ランダムに選択されます。
+		# 　そうでない場合は性別を問わないリストを使用します。
+		default = {
+			# フルネーム
+			# 性別不詳
+			full_names = {
+				INDIMACHINES2_CHR_B._Ender_Odriquez INDIMACHINES2_CHR_S._Ithri_Pio
+			}
+			# 男性用
+			full_names_male = {
+			}
+			# 女性用
+			full_names_female = {
+			}
+
+			# ファーストネーム（セカンドネームと組み合わせて使用される）
+			# 性別不詳
+			first_names = {
+				INDIMACHINES2_CHR_S._Nabul INDIMACHINES2_CHR_S._Arod INDIMACHINES2_CHR_S._Celes INDIMACHINES2_CHR_S._Antum INDIMACHINES2_CHR_S._Eleo INDIMACHINES2_CHR_S._Atri INDIMACHINES2_CHR_S._Vano INDIMACHINES2_CHR_S._Esta INDIMACHINES2_CHR_S._Silon INDIMACHINES2_CHR_S._Auro INDIMACHINES2_CHR_S._Loris INDIMACHINES2_CHR_S._Filo INDIMACHINES2_CHR_S._Hern INDIMACHINES2_CHR_S._Enish INDIMACHINES2_CHR_S._Orav INDIMACHINES2_CHR_S._Palus INDIMACHINES2_CHR_S._Lumin INDIMACHINES2_CHR_S._Viten INDIMACHINES2_CHR_S._Exol INDIMACHINES2_CHR_S._Nislo INDIMACHINES2_CHR_S._Helon INDIMACHINES2_CHR_S._Tessi INDIMACHINES2_CHR_S._Quavo INDIMACHINES2_CHR_S._Proxa INDIMACHINES2_CHR_S._Ulon INDIMACHINES2_CHR_S._Ryas INDIMACHINES2_CHR_S._Syvo INDIMACHINES2_CHR_S._Jana INDIMACHINES2_CHR_S._Tosa INDIMACHINES2_CHR_S._Lacu INDIMACHINES2_CHR_S._Muna INDIMACHINES2_CHR_S._Amos INDIMACHINES2_CHR_S._Ewid INDIMACHINES2_CHR_S._Arcus INDIMACHINES2_CHR_S._Ilas INDIMACHINES2_CHR_S._Maxi INDIMACHINES2_CHR_S._Jema INDIMACHINES2_CHR_S._Enrik INDIMACHINES2_CHR_S._Lila INDIMACHINES2_CHR_S._Tusu INDIMACHINES2_CHR_S._Ticus INDIMACHINES2_CHR_S._Daro INDIMACHINES2_CHR_S._Danil INDIMACHINES2_CHR_S._Ustu INDIMACHINES2_CHR_S._Rasu INDIMACHINES2_CHR_S._Halk INDIMACHINES2_CHR_S._Epen INDIMACHINES2_CHR_S._Lashi INDIMACHINES2_CHR_S._Kass INDIMACHINES2_CHR_S._Maku INDIMACHINES2_CHR_S._Narci INDIMACHINES2_CHR_S._Filos INDIMACHINES2_CHR_S._Rybo INDIMACHINES2_CHR_S._Niam INDIMACHINES2_CHR_S._Viol
+			}
+			# 男性用
+			first_names_male = {
+			}
+			# 女性用
+			first_names_female = {
+			}
+
+			# セカンドネーム（ファーストネームと組み合わせて使用される）
+			# 性別不詳
+			second_names = {
+				INDIMACHINES2_CHR_Oliva INDIMACHINES2_CHR_Giskar INDIMACHINES2_CHR_Neelar INDIMACHINES2_CHR_Rombie INDIMACHINES2_CHR_Emerav INDIMACHINES2_CHR_Baleyev INDIMACHINES2_CHR_Lodiaon INDIMACHINES2_CHR_Sarvov INDIMACHINES2_CHR_Reviza INDIMACHINES2_CHR_Calin INDIMACHINES2_CHR_Onyo INDIMACHINES2_CHR_Jander INDIMACHINES2_CHR_Liov INDIMACHINES2_CHR_Astol INDIMACHINES2_CHR_Etov INDIMACHINES2_CHR_Hiroh INDIMACHINES2_CHR_Noccur INDIMACHINES2_CHR_Mykia INDIMACHINES2_CHR_Vasil INDIMACHINES2_CHR_Dorsav INDIMACHINES2_CHR_Harrov INDIMACHINES2_CHR_Benes INDIMACHINES2_CHR_Kelden INDIMACHINES2_CHR_Avio INDIMACHINES2_CHR_Falov INDIMACHINES2_CHR_Hasar INDIMACHINES2_CHR_Sarton INDIMACHINES2_CHR_Evize INDIMACHINES2_CHR_Liban INDIMACHINES2_CHR_Onkov INDIMACHINES2_CHR_Stoma INDIMACHINES2_CHR_Turva INDIMACHINES2_CHR_Kial INDIMACHINES2_CHR_Vasia INDIMACHINES2_CHR_Delmar INDIMACHINES2_CHR_Arkon INDIMACHINES2_CHR_Biron INDIMACHINES2_CHR_Bindor INDIMACHINES2_CHR_Umot INDIMACHINES2_CHR_Aver INDIMACHINES2_CHR_Trian INDIMACHINES2_CHR_Beness INDIMACHINES2_CHR_Pellen INDIMACHINES2_CHR_Sarton INDIMACHINES2_CHR_Kollner INDIMACHINES2_CHR_Gorov INDIMACHINES2_CHR_Endel INDIMACHINES2_CHR_Merto INDIMACHINES2_CHR_Leenov INDIMACHINES2_CHR_Samul INDIMACHINES2_CHR_Palov INDIMACHINES2_CHR_Orby INDIMACHINES2_CHR_Minav INDIMACHINES2_CHR_Timat
+			}
+			# 男性用
+			second_names_male = {
+			}
+			# 女性用
+			second_names_female = {
+			}
+
+			# 政府の種類が use_regnal_names = yes の場合、
+			# 統治者や後継者を生成する際には、通常の名前ではなく王位名を使用します。
+			# 有効な在位名がない場合は、通常の名前を使用します。
+
+			# 在位時のフルネーム
+			# 性別不詳
+			regnal_full_names = {
+			}
+			# 男性用
+			regnal_full_names_male = {
+			}
+			# 女性用
+			regnal_full_names_female = {
+			}
+
+			# 在位時のファーストネーム
+			# 性別不詳
+			regnal_first_names = {
+				INDIMACHINES2_CHR_S._Nabul INDIMACHINES2_CHR_S._Arod INDIMACHINES2_CHR_S._Celes INDIMACHINES2_CHR_S._Antum INDIMACHINES2_CHR_S._Eleo INDIMACHINES2_CHR_S._Atri INDIMACHINES2_CHR_S._Vano INDIMACHINES2_CHR_S._Esta INDIMACHINES2_CHR_S._Silon INDIMACHINES2_CHR_S._Auro INDIMACHINES2_CHR_S._Loris INDIMACHINES2_CHR_S._Filo INDIMACHINES2_CHR_S._Hern INDIMACHINES2_CHR_S._Enish INDIMACHINES2_CHR_S._Orav INDIMACHINES2_CHR_S._Palus INDIMACHINES2_CHR_S._Lumin INDIMACHINES2_CHR_S._Viten INDIMACHINES2_CHR_S._Exol INDIMACHINES2_CHR_S._Nislo INDIMACHINES2_CHR_S._Helon INDIMACHINES2_CHR_S._Tessi INDIMACHINES2_CHR_S._Quavo INDIMACHINES2_CHR_S._Proxa INDIMACHINES2_CHR_S._Ulon INDIMACHINES2_CHR_S._Ryas INDIMACHINES2_CHR_S._Syvo INDIMACHINES2_CHR_S._Jana INDIMACHINES2_CHR_S._Tosa INDIMACHINES2_CHR_S._Lacu INDIMACHINES2_CHR_S._Muna INDIMACHINES2_CHR_S._Amos INDIMACHINES2_CHR_S._Ewid INDIMACHINES2_CHR_S._Arcus INDIMACHINES2_CHR_S._Ilas INDIMACHINES2_CHR_S._Maxi INDIMACHINES2_CHR_S._Jema INDIMACHINES2_CHR_S._Enrik INDIMACHINES2_CHR_S._Lila INDIMACHINES2_CHR_S._Tusu INDIMACHINES2_CHR_S._Ticus INDIMACHINES2_CHR_S._Daro INDIMACHINES2_CHR_S._Danil INDIMACHINES2_CHR_S._Ustu INDIMACHINES2_CHR_S._Rasu INDIMACHINES2_CHR_S._Halk INDIMACHINES2_CHR_S._Epen INDIMACHINES2_CHR_S._Lashi INDIMACHINES2_CHR_S._Kass INDIMACHINES2_CHR_S._Maku INDIMACHINES2_CHR_S._Narci INDIMACHINES2_CHR_S._Filos INDIMACHINES2_CHR_S._Rybo INDIMACHINES2_CHR_S._Niam INDIMACHINES2_CHR_S._Viol
+			}
+			# 男性用
+			regnal_first_names_male = {
+			}
+			# 女性用
+			regnal_first_names_female = {
+			}
+
+			# 在位時のセカンドネーム
+			# 性別不詳
+			regnal_second_names = {
+				INDIMACHINES2_CHR_Oliva INDIMACHINES2_CHR_Giskar INDIMACHINES2_CHR_Neelar INDIMACHINES2_CHR_Rombie INDIMACHINES2_CHR_Emerav INDIMACHINES2_CHR_Baleyev INDIMACHINES2_CHR_Lodiaon INDIMACHINES2_CHR_Sarvov INDIMACHINES2_CHR_Reviza INDIMACHINES2_CHR_Calin INDIMACHINES2_CHR_Onyo INDIMACHINES2_CHR_Jander INDIMACHINES2_CHR_Liov INDIMACHINES2_CHR_Astol INDIMACHINES2_CHR_Etov INDIMACHINES2_CHR_Hiroh INDIMACHINES2_CHR_Noccur INDIMACHINES2_CHR_Mykia INDIMACHINES2_CHR_Vasil INDIMACHINES2_CHR_Dorsav INDIMACHINES2_CHR_Harrov INDIMACHINES2_CHR_Benes INDIMACHINES2_CHR_Kelden INDIMACHINES2_CHR_Avio INDIMACHINES2_CHR_Falov INDIMACHINES2_CHR_Hasar INDIMACHINES2_CHR_Sarton INDIMACHINES2_CHR_Evize INDIMACHINES2_CHR_Liban INDIMACHINES2_CHR_Onkov INDIMACHINES2_CHR_Stoma INDIMACHINES2_CHR_Turva INDIMACHINES2_CHR_Kial INDIMACHINES2_CHR_Vasia INDIMACHINES2_CHR_Delmar INDIMACHINES2_CHR_Arkon INDIMACHINES2_CHR_Biron INDIMACHINES2_CHR_Bindor INDIMACHINES2_CHR_Umot INDIMACHINES2_CHR_Aver INDIMACHINES2_CHR_Trian INDIMACHINES2_CHR_Beness INDIMACHINES2_CHR_Pellen INDIMACHINES2_CHR_Sarton INDIMACHINES2_CHR_Kollner INDIMACHINES2_CHR_Gorov INDIMACHINES2_CHR_Endel INDIMACHINES2_CHR_Merto INDIMACHINES2_CHR_Leenov INDIMACHINES2_CHR_Samul INDIMACHINES2_CHR_Palov INDIMACHINES2_CHR_Orby INDIMACHINES2_CHR_Minav INDIMACHINES2_CHR_Timat
+			}
+			# 男性用
+			regnal_second_names_male = {
+			}
+			# 女性用
+			regnal_second_names_female = {
+			}
+		}
+	}
+}

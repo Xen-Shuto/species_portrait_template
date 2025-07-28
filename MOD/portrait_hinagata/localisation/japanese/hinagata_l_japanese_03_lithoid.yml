@@ -1,0 +1,86 @@
+﻿l_japanese:
+#↑日本語であることの指定（消すな！）
+########################################################################
+# 種族に割り当てる呼び名など（岩石種族用）
+# portrait_sets の species_class で関連付け
+# plural は複数形
+########################################################################
+# 種族名：名前（全角７文字まで。超えても良いが、画面よっては表示しきれない場合がある。）
+ HNGT_LIT: "雛型(岩石)"
+ HNGT_LIT_plural: "雛型's(岩石)"
+
+# 種族名：形容詞（全角７文字まで。超えても良いが、画面よっては表示しきれない場合がある。）
+ HNGT_LIT_adj: "雛型(岩石)"
+
+# 種族名：概説
+ HNGT_LIT_desc: "MOD"
+
+# 種族を揶揄する言葉（侮辱）
+# 後ろの数字を増やすことで複数設定可能
+ HNGT_LIT_insult_01: "糞石"
+ HNGT_LIT_insult_plural_01: "糞石ども"
+
+# 種族を揶揄する言葉（称賛）
+# 後ろの数字を増やすことで複数設定可能
+ HNGT_LIT_compliment_01: "宝石"
+ HNGT_LIT_compliment_plural_01: "宝石たち"
+
+# 種族の子供を意味する言葉
+ HNGT_LIT_spawn: "小石"
+ HNGT_LIT_spawn_plural: "小石たち"
+
+# 種族を侮辱するときの説明的なノイズ音
+# 5つ書く必要がある。
+#
+# 英wikiの説明と訳
+#"CLASS_sound_X" denotes descriptive noises (e.g. "stupid Robot, will you stop that beeping"). Five must be written.
+#「CLASS_sound_X」は、説明的なノイズ音（例：「バカロボット、そのビープ音をやめてくれないか」）を示します。5つ書く必要があります。
+#
+# ゲーム本体の英語は以下の通り（岩石種族の場合）
+# LITHOID_sound_01:0 "tapping"		軽く叩く音。
+# LITHOID_sound_02:0 "cracking"		物が割れる際に出る鋭い音。
+# LITHOID_sound_03:0 "scraping"		物が表面をこする際に出る音。
+# LITHOID_sound_04:0 "crackling"	小さな爆発音や火が燃える際に出る音。
+# LITHOID_sound_05:0 "rapping"		短くて鋭い叩く音。
+#
+# ゲーム本体の日本語訳
+# LITHOID_sound_01: "トントン"
+# LITHOID_sound_02: "カチカチ"
+# LITHOID_sound_03: "スリスリ"
+# LITHOID_sound_04: "パチパチ"
+# LITHOID_sound_05: "コツコツ"
+#
+# 上記を参考に設定
+ HNGT_LIT_sound_01: "トントン"
+ HNGT_LIT_sound_02: "カチカチ"
+ HNGT_LIT_sound_03: "スリスリ"
+ HNGT_LIT_sound_04: "パチパチ"
+ HNGT_LIT_sound_05: "コツコツ"
+
+# 種族の身体部位の名称
+# 種族が食物を消化するための器官、人間で言う胃に当たる部位
+ HNGT_LIT_organ: "晶洞"
+ HNGT_LIT_organ_plural: "晶洞"
+
+# 種族が食物を摂取するための器官、人間で言う口に当たる部位
+ HNGT_LIT_mouth: "吸い込み口"
+
+# 種族が音を聴くための器官、人間で言う耳に当たる部位
+ HNGT_LIT_ear: "気孔岩"
+ HNGT_LIT_ear_plural: "気孔岩"
+
+# 種族が物を拾うために使う部位、人間でいう手に当たる部位
+ HNGT_LIT_hand: "付属岩"
+ HNGT_LIT_hand_plural: "付属岩"
+
+# 種族が食物を細かくするための器官、人間で言う歯に当たる部位
+ HNGT_LIT_tooth: "そしゃく破片"
+ HNGT_LIT_tooth_plural: "そしゃく破片"
+
+# 種族があとから発掘などされた時に表現する物。化石とか残骸とか
+ HNGT_LIT_fossil: "破片"
+ HNGT_LIT_fossil_plural: "破片"
+
+# 種族のfossilとして残る物？ 骨格とか部品とか
+ HNGT_LIT_remnant: "命なき石塊"
+ HNGT_LIT_remnant_plural: "命なき石塊"

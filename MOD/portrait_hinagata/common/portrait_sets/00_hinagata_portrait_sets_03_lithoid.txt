@@ -20,7 +20,7 @@ hinagata_lithoid = {
 		# 使用するポートレイト
 		portraits = {
 			# ポートレイトの識別名
-			"hinagata_lithoid01"
+			"hinagata_lit01"
 		}
 	}
 

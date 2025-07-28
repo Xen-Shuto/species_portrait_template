@@ -27,7 +27,7 @@ portrait_groups = {
 
 	# ポートレイトの識別名と設定
 	# portrait_setsのportraitsで指定することで使えるようになる
-	hinagata_lithoid01 = {
+	hinagata_lit01 = {
 
 		# デフォルトで使用するポートレイト
 		# 外見選択時の一覧に表示される

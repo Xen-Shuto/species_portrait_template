@@ -1,0 +1,380 @@
+﻿### hinagata biologicals
+### ベースは HUM2.txt
+### オリジナルで名前リストを作成する場合は、localisation/japanese/name_lists/ に
+### name_list_(任意の名前)_l_japanese.yml を作成して名称を定義すること。
+### Created by SubUnit-D817
+
+HNGT_BIO = {
+	selectable = {
+		always = yes
+	}
+	ship_names = {
+
+		# 汎用
+		generic = {
+			HUM2_SHIP_JalKensemma HUM2_SHIP_JalBokanum HUM2_SHIP_JalImkamma HUM2_SHIP_JalProgmat HUM2_SHIP_JalTatalon HUM2_SHIP_JalBak HUM2_SHIP_JalIrraduna HUM2_SHIP_JalKorpok HUM2_SHIP_JalHissimia HUM2_SHIP_JalLak HUM2_SHIP_JalPershmat HUM2_SHIP_JalImmakun HUM2_SHIP_JalDorossa HUM2_SHIP_JalTeerak HUM2_SHIP_JalPok HUM2_SHIP_JalMuk HUM2_SHIP_JalMarathol HUM2_SHIP_JalVorgas HUM2_SHIP_JalIknum HUM2_SHIP_JalPorton HUM2_SHIP_JalLikum HUM2_SHIP_JalVoifun HUM2_SHIP_JalTuk HUM2_SHIP_JalLorfun HUM2_SHIP_JalPerfun HUM2_SHIP_JalEnnik HUM2_SHIP_JalTortus HUM2_SHIP_JalTurran HUM2_SHIP_JalRadan HUM2_SHIP_JalLosk HUM2_SHIP_JalUk HUM2_SHIP_JalVak HUM2_SHIP_JalRestok HUM2_SHIP_JalDramon HUM2_SHIP_JalPimmiron HUM2_SHIP_JalIrdon HUM2_SHIP_JalWadon HUM2_SHIP_JalVudon HUM2_SHIP_JalLurrmon HUM2_SHIP_JalIckma HUM2_SHIP_JalTrassom HUM2_SHIP_JalNurmon HUM2_SHIP_JalNigam HUM2_SHIP_JalRok HUM2_SHIP_JalVokja HUM2_SHIP_JalJekon HUM2_SHIP_JalTorbak HUM2_SHIP_JalNisk HUM2_SHIP_JalTriken HUM2_SHIP_JalVokal HUM2_SHIP_JalSikra HUM2_SHIP_JalTurus HUM2_SHIP_JalJiklan HUM2_SHIP_JalSik HUM2_SHIP_JalIrken HUM2_SHIP_JalTenki HUM2_SHIP_JalOka HUM2_SHIP_JalTokkom HUM2_SHIP_JalVikrim HUM2_SHIP_JalJidar HUM2_SHIP_JalBonton HUM2_SHIP_JalSotork HUM2_SHIP_JalTesk HUM2_SHIP_JalPintar HUM2_SHIP_JalEverk HUM2_SHIP_JalErk HUM2_SHIP_JalBavak HUM2_SHIP_JalItik HUM2_SHIP_JalKolpo HUM2_SHIP_JalVikisk HUM2_SHIP_JalSiba HUM2_SHIP_JalNurgil HUM2_SHIP_JalOlesk HUM2_SHIP_JalObassa HUM2_SHIP_JalToroll HUM2_SHIP_KalSupon HUM2_SHIP_KalVimon HUM2_SHIP_KalTumon HUM2_SHIP_KalPurlon HUM2_SHIP_KalUrilon HUM2_SHIP_KalKumpuk HUM2_SHIP_KalValruk HUM2_SHIP_KalImon HUM2_SHIP_KalUpon HUM2_SHIP_KalPoinun HUM2_SHIP_KalLak HUM2_SHIP_KalTarmon HUM2_SHIP_KalFeidon HUM2_SHIP_KalMorradon HUM2_SHIP_IrskMul HUM2_SHIP_IrskTorshka HUM2_SHIP_IrskHessint HUM2_SHIP_IrskMong HUM2_SHIP_IrskPollun HUM2_SHIP_IrskLodam HUM2_SHIP_IrskGungar HUM2_SHIP_IrskGaran HUM2_SHIP_IrskPatal HUM2_SHIP_IrskBovam HUM2_SHIP_IrskTul HUM2_SHIP_IrskVul HUM2_SHIP_IrskBul HUM2_SHIP_IrskPorskan HUM2_SHIP_IrskTotollan HUM2_SHIP_IrskLorbask HUM2_SHIP_IrskHinnat HUM2_SHIP_IrskTumala HUM2_SHIP_TrokRul HUM2_SHIP_TrokLorram HUM2_SHIP_TrokPishkot HUM2_SHIP_TrokHanata HUM2_SHIP_TrokPetroisal HUM2_SHIP_TrokYtall HUM2_SHIP_TrokHoffal HUM2_SHIP_TrokBontosk HUM2_SHIP_TrokPellator HUM2_SHIP_TrokRong HUM2_SHIP_TrokCong HUM2_SHIP_TrokSorong HUM2_SHIP_TrokHattat HUM2_SHIP_TrokViam HUM2_SHIP_TrokOffzul
+		}
+
+		# コルベット
+		corvette = {
+		}
+
+		# 駆逐艦
+		destroyer = {
+		}
+
+		# 巡洋艦
+		cruiser = {
+		}
+
+		# 戦艦
+		battleship = {
+		}
+
+		# タイタン
+		titan = {
+		}
+
+		# コロッサス
+		colossus = {
+		}
+
+		# ジャガーノート
+		juggernaut = {
+		}
+
+		# 調査船
+		science = {
+		}
+
+		# コロニー船
+		colonizer = {
+		}
+
+		# 民間コロニー船
+		sponsored_colonizer = { # 汎用的な名前が存在しない場合に必要
+		}
+
+		# 建設船
+		constructor = {
+		}
+
+		# 輸送艦
+		transport = {
+		}
+
+		# 防衛プラットフォーム
+		military_station_small = {
+			HUM2_SHIP_JalKorvima HUM2_SHIP_JalTrassul HUM2_SHIP_JalEmenthra HUM2_SHIP_JalDovareth HUM2_SHIP_JalMurkenna HUM2_SHIP_JalVoratak HUM2_SHIP_JalSemprada HUM2_SHIP_JalBravikna HUM2_SHIP_JalTorvimeth HUM2_SHIP_JalGandoral
+		}
+
+		# イオン砲
+		ion_cannon = {
+		}
+	}
+
+	# 船体クラス名称
+	ship_class_names = {
+		generic = {
+		}
+	}
+
+	# 艦隊名称
+	fleet_names = {
+		# ランダム艦隊名
+		random_names = {
+			HUM2_FLEET_JointExpeditionaryFleet HUM2_FLEET_StrategicReadinessFleet HUM2_FLEET_TacticalResponseFleet HUM2_FLEET_RapidStrikeFleet HUM2_FLEET_ForwardDefenseFleet
+		}
+		# 通番艦隊名（第1艦隊、第2艦隊...など
+		sequential_name = HUM2_STELLARFLEET
+	}
+
+	# 地上軍名称
+	army_names = {
+
+		# 汎用
+		generic = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		# 防衛アンドロイド軍団
+		machine_defense = {
+			sequential_name = HUM2_COLONIALWATCH
+		}
+
+		# 戦闘アンドロイド軍団
+		machine_assault_1 = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		# 上級戦闘アンドロイド軍団
+		machine_assault_2 = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		# 巨大戦闘アンドロイド
+		machine_assault_3 = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		# 防衛軍
+		defense_army = {
+			sequential_name = HUM2_COLONIALWATCH
+		}
+
+		# 侵攻軍
+		assault_army = {
+			sequential_name = HUM2_ASSAULTGROUP
+		}
+
+		# 奴隷軍団
+		slave_army = {
+			sequential_name = HUM2_PENALCORPS
+		}
+
+		# クローン軍団
+		clone_army = {
+			sequential_name = HUM2_TANKBREDREGULARS
+		}
+
+		# 完全なクローン軍団
+		perfected_clone_army = {
+			sequential_name = HUM2_TANKBREDREGULARS
+		}
+
+		# 死者の軍団
+		undead_army = {
+			sequential_name = HUM2_DREADCORPS
+		}
+
+		# 侵攻ロボット軍団
+		robotic_army = {
+			sequential_name = HUM2_BATTLEDRONEWING
+		}
+
+		# 防衛ロボット軍団
+		robotic_defense_army = {
+			sequential_name = HUM2_BATTLEDRONEEMPLACEMENTS
+		}
+
+		# 超能力軍団
+		psionic_army = {
+			sequential_name = HUM2_PSIOPSCOMMAND
+		}
+
+		# ゼノモーフ軍団
+		xenomorph_army = {
+			sequential_name = HUM2_SHOCKSWARM
+		}
+
+		# 遺伝子強化兵軍団
+		gene_warrior_army = {
+			sequential_name = HUM2_PUREBLOODS
+		}
+
+		# 守備隊
+		occupation_army = {
+			sequential_name = HUM2_OCCUPATIONWATCH
+		}
+
+		# 守備隊（機械）
+		individual_machine_occupation_army = {
+			sequential_name = HUM2_OCCUPATIONWATCH
+		}
+
+		# ロボット守備隊
+		robotic_occupation_army = {
+			sequential_name = HUM2_OCCUPATIONDRONES
+		}
+
+		# 原始的な地上軍
+		primitive_army = {
+			sequential_name = HUM2_PRIMITIVEARMY
+		}
+
+		# 工業化時代の地上軍
+		industrial_army = {
+			sequential_name = HUM2_INDUSTRIALARMY
+		}
+
+		# ポスト原子力時代の地上軍
+		postatomic_army = {
+			sequential_name = HUM2_POSTATOMICARMY
+		}
+
+		# ワープリング
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		# 準知的生命体の群れ
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+
+		# 準知的生命体の大群
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	# 惑星名称
+	planet_names = {
+
+		# 汎用
+		generic = {
+			names = {
+			 HUM2_PLANET_VirikMog HUM2_PLANET_KadmanaMog HUM2_PLANET_TorrikMog HUM2_PLANET_IndataMog HUM2_PLANET_IlastMog HUM2_PLANET_PithajMog HUM2_PLANET_KulmanMog HUM2_PLANET_PondakMog HUM2_PLANET_VallajMog HUM2_PLANET_KostaMog HUM2_PLANET_RoknimMog HUM2_PLANET_ViTalas HUM2_PLANET_ViSumat HUM2_PLANET_ViToram HUM2_PLANET_ViKaskan HUM2_PLANET_ViSimni HUM2_PLANET_ViSullug HUM2_PLANET_ViPostam HUM2_PLANET_ViTillik HUM2_PLANET_ViPellor HUM2_PLANET_ViValam HUM2_PLANET_ViMakal HUM2_PLANET_ViOram
+			}
+		}
+
+		# 砂漠型惑星
+		pc_desert = {
+			names = {
+				HUM2_PLANET_ValkBellom HUM2_PLANET_ValkKruskan HUM2_PLANET_ValkMasted HUM2_PLANET_ValkGoram HUM2_PLANET_ValkSilegg HUM2_PLANET_ValkKloster HUM2_PLANET_ValkBdurk HUM2_PLANET_ValkKunor HUM2_PLANET_ValkLimteg HUM2_PLANET_ValkKlasur HUM2_PLANET_ValkBuregg HUM2_PLANET_ValkOrdekan HUM2_PLANET_ValkMog HUM2_PLANET_ValkToram HUM2_PLANET_ValkKaskan HUM2_PLANET_ValkTalas HUM2_PLANET_ValkSumat HUM2_PLANET_ValkSullug HUM2_PLANET_ValkPostam HUM2_PLANET_ValkTillik HUM2_PLANET_ValkPellor HUM2_PLANET_ValkPellor HUM2_PLANET_ValkValam
+			}
+		}
+
+		# 熱帯型惑星
+		pc_tropical = {
+			names = {
+				HUM2_PLANET_MalhKradme HUM2_PLANET_MalhMirok HUM2_PLANET_MalhSirken HUM2_PLANET_MalhTeles HUM2_PLANET_MalhGupok HUM2_PLANET_MalhPendak HUM2_PLANET_MalhLimkar HUM2_PLANET_MalhGottam HUM2_PLANET_MalhLellir HUM2_PLANET_MalhGlessor HUM2_PLANET_MalhFurkalh HUM2_PLANET_MalhMarold HUM2_PLANET_MalhGrikes HUM2_PLANET_MalhTolokum HUM2_PLANET_MalhToledurk HUM2_PLANET_MalhVoriseg HUM2_PLANET_MalhSigrevot HUM2_PLANET_MalhTureng
+			}
+		}
+
+		# 乾燥型惑星
+		pc_arid = {
+			names = {
+				HUM2_PLANET_GrunPestid HUM2_PLANET_GrunTaklan HUM2_PLANET_GrunViskod HUM2_PLANET_GrunVugus HUM2_PLANET_GrunTrogak HUM2_PLANET_GrunMilak HUM2_PLANET_GrunMalkun HUM2_PLANET_GrunTamulk HUM2_PLANET_GrunEsgik HUM2_PLANET_GrunAsteg HUM2_PLANET_GrunDolask HUM2_PLANET_GrunSerim HUM2_PLANET_GrunLugils HUM2_PLANET_GrunKorav HUM2_PLANET_GrunSalkag HUM2_PLANET_GrunGamalh HUM2_PLANET_GrunDronek HUM2_PLANET_GrunTromlok HUM2_PLANET_GrunDoravek HUM2_PLANET_GrunSirkavog HUM2_PLANET_GrunKruksalh
+			}
+		}
+
+		# 大陸型惑星
+		pc_continental = {
+			names = {
+			}
+		}
+
+		# 海洋型惑星
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		# ツンドラ型惑星
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		# 極寒型惑星
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		# サバンナ型惑星
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		# 高山型惑星
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	# キャラクター名称
+	character_names = {
+		# 名前は、単独でフルネームとして使用される場合もあれば、
+		# ファーストネームとセカンドネームの組み合わせとして使用される場合もあります。
+		# フルネームと複合名（組み合わせた名前）の両方が使用可能な場合、
+		# 50%の割合でどちらか一方を使用します。
+
+		# 男性/女性キャラクターの場合、
+		# 　対応する性別別のリストが空でない場合に使用されます。
+		# 　そうでない場合は性別を問わないリストを使用されます。
+		# 性別が不明なキャラクターの場合、
+		# 　性別不詳の名前が利用可能な場合はそれを使用します。
+		# 　両方の性別が利用可能な場合、ランダムに選択されます。
+		# 　そうでない場合は性別を問わないリストを使用します。
+		default = {
+			# フルネーム
+			# 性別不詳
+			full_names = {
+			}
+			# 男性用
+			full_names_male = {
+			}
+			# 女性用
+			full_names_female = {
+			}
+
+			# ファーストネーム（セカンドネームと組み合わせて使用される）
+			# 性別不詳
+			first_names = {
+				HUM2_CHR_Merg HUM2_CHR_Ilmas HUM2_CHR_Fon HUM2_CHR_Japra HUM2_CHR_Vikal HUM2_CHR_Monak HUM2_CHR_Perak HUM2_CHR_Rald HUM2_CHR_Jurg HUM2_CHR_Sapra HUM2_CHR_Junak HUM2_CHR_Vimas HUM2_CHR_Tupra HUM2_CHR_Kon HUM2_CHR_Vuld HUM2_CHR_Ganak HUM2_CHR_Fadra HUM2_CHR_Gapra
+			}
+			# 男性用
+			first_names_male = {
+			}
+			# 女性用
+			first_names_female = {
+			}
+
+			# セカンドネーム（ファーストネームと組み合わせて使用される）
+			# 性別不詳
+			second_names = {
+				HUM2_CHR_Toros HUM2_CHR_Vigon HUM2_CHR_Tysala HUM2_CHR_Vis HUM2_CHR_Vagas HUM2_CHR_Inik HUM2_CHR_Va HUM2_CHR_Tor HUM2_CHR_Wek HUM2_CHR_Pok HUM2_CHR_Vun HUM2_CHR_Kap HUM2_CHR_Nik HUM2_CHR_Fen HUM2_CHR_Taras HUM2_CHR_Vagras HUM2_CHR_Mikon
+			}
+			# 男性用
+			second_names_male = {
+			}
+			# 女性用
+			second_names_female = {
+			}
+
+			# 政府の種類が use_regnal_names = yes の場合、
+			# 統治者や後継者を生成する際には、通常の名前ではなく王位名を使用します。
+			# 有効な在位名がない場合は、通常の名前を使用します。
+
+			# 在位時のフルネーム
+			# 性別不詳
+			regnal_full_names = {
+			}
+			# 男性用
+			regnal_full_names_male = {
+			}
+			# 女性用
+			regnal_full_names_female = {
+			}
+
+			# 在位時のファーストネーム
+			# 性別不詳
+			regnal_first_names = {
+				HUM2_CHR_Merg HUM2_CHR_Ilmas HUM2_CHR_Fon HUM2_CHR_Japra HUM2_CHR_Vikal HUM2_CHR_Monak HUM2_CHR_Perak HUM2_CHR_Rald
+			}
+			# 男性用
+			regnal_first_names_male = {
+			}
+			# 女性用
+			regnal_first_names_female = {
+			}
+
+			# 在位時のセカンドネーム
+			# 性別不詳
+			regnal_second_names = {
+				HUM2_CHR_Toros HUM2_CHR_Vigon HUM2_CHR_Tysala
+			}
+			# 男性用
+			regnal_second_names_male = {
+			}
+			# 女性用
+			regnal_second_names_female = {
+			}
+		}
+	}
+}

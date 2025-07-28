@@ -1,0 +1,45 @@
+########################################################################
+# ランダム生成される帝国名用の定義
+# name : 種族名
+# plural : 種族名(複数形)
+# home_planet : 惑星名
+# home_system : 恒星名
+# name_list : ネームリスト
+########################################################################
+HNGT_LIT = {
+	HNGT_LIT1 = {
+		name = SPEC_HNGT1
+		plural = SPEC_HNGT_pl1
+		home_planet = SPEC_HNGT_planet1
+		home_system = SPEC_HNGT_system1
+		name_list =  "HNGT_LIT"
+	}
+	HNGT_LIT2 = {
+		name = SPEC_HNGT2
+		plural = SPEC_HNGT_pl2
+		home_planet = SPEC_HNGT_planet2
+		home_system = SPEC_HNGT_system2
+		name_list =  "HNGT_LIT"
+	}
+	HNGT_LIT3 = {
+		name = SPEC_HNGT3
+		plural = SPEC_HNGT_pl3
+		home_planet = SPEC_HNGT_planet3
+		home_system = SPEC_HNGT_system3
+		name_list =  "HNGT_LIT"
+	}
+	HNGT_LIT4 = {
+		name = SPEC_HNGT4
+		plural = SPEC_HNGT_pl4
+		home_planet = SPEC_HNGT_planet4
+		home_system = SPEC_HNGT_system4
+		name_list =  "HNGT_LIT"
+	}
+	HNGT_LIT5 = {
+		name = SPEC_HNGT5
+		plural = SPEC_HNGT_pl5
+		home_planet = SPEC_HNGT_planet5
+		home_system = SPEC_HNGT_system5
+		name_list =  "HNGT_LIT"
+	}
+}

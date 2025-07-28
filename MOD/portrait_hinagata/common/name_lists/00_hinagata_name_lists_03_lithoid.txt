@@ -1,0 +1,380 @@
+﻿### hinagata lithoid
+### ベースは LITH4.txt
+### オリジナルで名前リストを作成する場合は、localisation/japanese/name_lists/ に
+### name_list_(任意の名前)_l_japanese.yml を作成して名称を定義すること。
+### Created by SubUnit-D817
+
+HNGT_LIT = {
+	selectable = {
+		always = yes
+	}
+	ship_names = {
+
+		# 汎用
+		generic = {
+			 LITHOID4_SHIP_Abrupt LITHOID4_SHIP_AdamantFleck LITHOID4_SHIP_Arduous LITHOID4_SHIP_AugustCrag LITHOID4_SHIP_Avalanche LITHOID4_SHIP_BankedPurpose LITHOID4_SHIP_BeckoningFall LITHOID4_SHIP_BreakneckRidge LITHOID4_SHIP_Cluster-Forged LITHOID4_SHIP_CollapsedNugget LITHOID4_SHIP_CosmicBarrage LITHOID4_SHIP_CraggyFlints LITHOID4_SHIP_Declivitous LITHOID4_SHIP_DeepEdge LITHOID4_SHIP_EdgedPurpose LITHOID4_SHIP_EtchedFinality LITHOID4_SHIP_ExaltedForge LITHOID4_SHIP_FlintRazor LITHOID4_SHIP_FlintedShard LITHOID4_SHIP_Forgeslide LITHOID4_SHIP_GloriousEdge LITHOID4_SHIP_GloriousWark LITHOID4_SHIP_Grainslide LITHOID4_SHIP_GrandPrecipitate LITHOID4_SHIP_GrandRidge LITHOID4_SHIP_GreatSlip LITHOID4_SHIP_HeadlongShard LITHOID4_SHIP_HeavyHolme LITHOID4_SHIP_ImbuedPurpose LITHOID4_SHIP_Indomitable LITHOID4_SHIP_IndomitableCrag LITHOID4_SHIP_KonnetsCore LITHOID4_SHIP_LeadenComb LITHOID4_SHIP_LodgedClarity LITHOID4_SHIP_LodgedPurpose LITHOID4_SHIP_LoftyReach LITHOID4_SHIP_MagnificentTor LITHOID4_SHIP_MajesticHenge LITHOID4_SHIP_MassiveMote LITHOID4_SHIP_MonumentalCore LITHOID4_SHIP_NobleCore LITHOID4_SHIP_OckensNugget LITHOID4_SHIP_PreciousEdge LITHOID4_SHIP_PureFace LITHOID4_SHIP_PureProspect LITHOID4_SHIP_RaisedAloft LITHOID4_SHIP_RivelinCrag LITHOID4_SHIP_RiversBreak LITHOID4_SHIP_SheerStatement LITHOID4_SHIP_SiftedPurpose LITHOID4_SHIP_SilicateFlood LITHOID4_SHIP_SkraffsProspect LITHOID4_SHIP_SoberTor LITHOID4_SHIP_SpennitsThorne LITHOID4_SHIP_StandingEdge LITHOID4_SHIP_Starbreaker LITHOID4_SHIP_Starfleckt LITHOID4_SHIP_Starwark LITHOID4_SHIP_StatelyTor LITHOID4_SHIP_StaticFlow LITHOID4_SHIP_SteelyProspect LITHOID4_SHIP_SteepPurpose LITHOID4_SHIP_StoicDust LITHOID4_SHIP_StoneTorrent LITHOID4_SHIP_SublimeHenge LITHOID4_SHIP_TerminalDeluge LITHOID4_SHIP_TerminalFall LITHOID4_SHIP_TidesBulwark LITHOID4_SHIP_TumblingPeril LITHOID4_SHIP_UnyieldingMass LITHOID4_SHIP_UpendedShard LITHOID4_SHIP_WinnowedDestiny LITHOID4_SHIP_YockensEdge
+		}
+
+		# コルベット
+		corvette = {
+		}
+
+		# 駆逐艦
+		destroyer = {
+		}
+
+		# 巡洋艦
+		cruiser = {
+		}
+
+		# 戦艦
+		battleship = {
+		}
+
+		# タイタン
+		titan = {
+		}
+
+		# コロッサス
+		colossus = {
+		}
+
+		# ジャガーノート
+		juggernaut = {
+		}
+
+		# 調査船
+		science = {
+		}
+
+		# コロニー船
+		colonizer = {
+		}
+
+		# 民間コロニー船
+		sponsored_colonizer = { # 汎用的な名前が存在しない場合に必要
+		}
+
+		# 建設船
+		constructor = {
+		}
+
+		# 輸送艦
+		transport = {
+		}
+
+		# 防衛プラットフォーム
+		military_station_small = {
+			LITHOID4_SHIP_Obsidian_Howl LITHOID4_SHIP_Gravel_King  LITHOID4_SHIP_Fracture_Tithe LITHOID4_SHIP_Core_Scourge  LITHOID4_SHIP_Spire_Shudder LITHOID4_SHIP_Shard_Vigil  LITHOID4_SHIP_Rubble_Scribe LITHOID4_SHIP_Vein_Splitter  LITHOID4_SHIP_Dust_Ancestor LITHOID4_SHIP_Tectonic_Eye LITHOID4_SHIP_Slate_Oracle LITHOID4_SHIP_Pebble_Judge LITHOID4_SHIP_Crystal_Moan LITHOID4_SHIP_Grudge_Pillar LITHOID4_SHIP_Mantle_Sentinel LITHOID4_SHIP_Ashen_Brayer LITHOID4_SHIP_Basalt_Memory LITHOID4_SHIP_Glint_Warden LITHOID4_SHIP_Grain_Sliver LITHOID4_SHIP_Earthbind_Hex
+		}
+
+		# イオン砲
+		ion_cannon = {
+		}
+	}
+
+	# 船体クラス名称
+	ship_class_names = {
+		generic = {
+		}
+	}
+
+	# 艦隊名称
+	fleet_names = {
+		# ランダム艦隊名
+		random_names = {
+			LITHOID4_FLEET_CraggedStratum LITHOID4_FLEET_EmbeddedStratum LITHOID4_FLEET_FallenStratum LITHOID4_FLEET_FleckedStratum LITHOID4_FLEET_FrostedStratum LITHOID4_FLEET_HoldfastStratum LITHOID4_FLEET_IngrainedStratum LITHOID4_FLEET_LeewardStratum LITHOID4_FLEET_LoftedStratum LITHOID4_FLEET_MorphicStratum LITHOID4_FLEET_NockedStratum LITHOID4_FLEET_PockedStratum LITHOID4_FLEET_ReefStratum LITHOID4_FLEET_ScaldingStratum LITHOID4_FLEET_ScarredStratum LITHOID4_FLEET_SheerStratum LITHOID4_FLEET_ShimmeringStratum LITHOID4_FLEET_SlopedStratum LITHOID4_FLEET_StarforgedStratum LITHOID4_FLEET_WeatheredStratum LITHOID4_FLEET_WindshearStratum
+		}
+		# 通番艦隊名（第1艦隊、第2艦隊...など
+		sequential_name = LITHOID4_STRATUM
+	}
+
+	# 地上軍名称
+	army_names = {
+
+		# 汎用
+		generic = {
+			sequential_name = LITHOID4_PIERCERS
+		}
+
+		# 防衛アンドロイド軍団
+		machine_defense = {
+			sequential_name = LITHOID4_UNWEATHERABLES
+		}
+
+		# 戦闘アンドロイド軍団
+		machine_assault_1 = {
+			sequential_name = LITHOID4_PIERCERS
+		}
+
+		# 上級戦闘アンドロイド軍団
+		machine_assault_2 = {
+			sequential_name = LITHOID4_PIERCERS
+		}
+
+		# 巨大戦闘アンドロイド
+		machine_assault_3 = {
+			sequential_name = LITHOID4_PIERCERS
+		}
+
+		# 防衛軍
+		defense_army = {
+			sequential_name = LITHOID4_UNWEATHERABLES
+		}
+
+		# 侵攻軍
+		assault_army = {
+			sequential_name = LITHOID4_PIERCERS
+		}
+
+		# 奴隷軍団
+		slave_army = {
+			sequential_name = LITHOID4_BONDEDS
+		}
+
+		# クローン軍団
+		clone_army = {
+			sequential_name = LITHOID4_MIRRORS
+		}
+
+		# 完全なクローン軍団
+		perfected_clone_army = {
+			sequential_name = LITHOID4_MIRRORS
+		}
+
+		# 死者の軍団
+		undead_army = {
+			sequential_name = LITHOID4_REFORGEDS
+		}
+
+		# 侵攻ロボット軍団
+		robotic_army = {
+			sequential_name = LITHOID4_ARTIFIKS
+		}
+
+		# 防衛ロボット軍団
+		robotic_defense_army = {
+			sequential_name = LITHOID4_STANEARTIFIKS
+		}
+
+		# 超能力軍団
+		psionic_army = {
+			sequential_name = LITHOID4_SCRYERS
+		}
+
+		# ゼノモーフ軍団
+		xenomorph_army = {
+			sequential_name = LITHOID4_CALCINOIDS
+		}
+
+		# 遺伝子強化兵軍団
+		gene_warrior_army = {
+			sequential_name = LITHOID4_WEATHERERS
+		}
+
+		# 守備隊
+		occupation_army = {
+			sequential_name = LITHOID4_DEPOSITORS
+		}
+
+		# 守備隊（機械）
+		individual_machine_occupation_army = {
+			sequential_name = LITHOID4_DEPOSITORS
+		}
+
+		# ロボット守備隊
+		robotic_occupation_army = {
+			sequential_name = LITHOID4_ARTIFIKDESPOSITORS
+		}
+
+		# 原始的な地上軍
+		primitive_army = {
+			sequential_name = LITHOID4_NUGGETS
+		}
+
+		# 工業化時代の地上軍
+		industrial_army = {
+			sequential_name = LITHOID4_FLINTERS
+		}
+
+		# ポスト原子力時代の地上軍
+		postatomic_army = {
+			sequential_name = LITHOID4_ESSENTERS
+		}
+
+		# ワープリング
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		# 準知的生命体の群れ
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+
+		# 準知的生命体の大群
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	# 惑星名称
+	planet_names = {
+
+		# 汎用
+		generic = {
+			names = {
+				LITHOID4_PLANET_Arnstane LITHOID4_PLANET_Arnvoss LITHOID4_PLANET_Balkenvoss LITHOID4_PLANET_Bordstane LITHOID4_PLANET_Carnvoss LITHOID4_PLANET_Caster LITHOID4_PLANET_Cattalstane LITHOID4_PLANET_Crambon LITHOID4_PLANET_Dockstane LITHOID4_PLANET_Doortstane LITHOID4_PLANET_Eskrick LITHOID4_PLANET_Falkid LITHOID4_PLANET_Forgefall LITHOID4_PLANET_Fozstane LITHOID4_PLANET_Grimvoss LITHOID4_PLANET_ImmarsStane LITHOID4_PLANET_Kennovoss LITHOID4_PLANET_KilnEdge LITHOID4_PLANET_Kilnstane LITHOID4_PLANET_Krail LITHOID4_PLANET_Larconbank LITHOID4_PLANET_Largoll LITHOID4_PLANET_Lathvoss LITHOID4_PLANET_Layharm LITHOID4_PLANET_Leevoss LITHOID4_PLANET_LesserStane LITHOID4_PLANET_Levenbank LITHOID4_PLANET_Monstane LITHOID4_PLANET_Motebank LITHOID4_PLANET_Newlands LITHOID4_PLANET_Ousten LITHOID4_PLANET_Pitten LITHOID4_PLANET_Pittenock LITHOID4_PLANET_Rask LITHOID4_PLANET_Rathlenn LITHOID4_PLANET_Ratholl LITHOID4_PLANET_Rhynstane LITHOID4_PLANET_Rhynvoss LITHOID4_PLANET_Ribharm LITHOID4_PLANET_Rikset LITHOID4_PLANET_Scarness LITHOID4_PLANET_Sharinn LITHOID4_PLANET_Skerne LITHOID4_PLANET_Sleights LITHOID4_PLANET_Stape LITHOID4_PLANET_StellokBank LITHOID4_PLANET_Strinall LITHOID4_PLANET_Tarkstane LITHOID4_PLANET_Ulleshek LITHOID4_PLANET_Undulonn LITHOID4_PLANET_Whelstane LITHOID4_PLANET_WinteredStane
+			}
+		}
+
+		# 砂漠型惑星
+		pc_desert = {
+			names = {
+				LITHOID4_PLANET_Briddleholm LITHOID4_PLANET_Flamoss LITHOID4_PLANET_Fozbake LITHOID4_PLANET_Skarben LITHOID4_PLANET_Windholm
+			}
+		}
+
+		# 熱帯型惑星
+		pc_tropical = {
+			names = {
+				LITHOID4_PLANET_Galloshall LITHOID4_PLANET_GlossonStane LITHOID4_PLANET_Harringstane LITHOID4_PLANET_Marecombe LITHOID4_PLANET_Wringholm
+			}
+		}
+
+		# 乾燥型惑星
+		pc_arid = {
+			names = {
+			}
+		}
+
+		# 大陸型惑星
+		pc_continental = {
+			names = {
+				LITHOID4_PLANET_Bernhul LITHOID4_PLANET_EskenPlatt LITHOID4_PLANET_Finnen LITHOID4_PLANET_TarstanePlatt LITHOID4_PLANET_Weistonn
+			}
+		}
+
+		# 海洋型惑星
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		# ツンドラ型惑星
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		# 極寒型惑星
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		# サバンナ型惑星
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		# 高山型惑星
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	# キャラクター名称
+	character_names = {
+		# 名前は、単独でフルネームとして使用される場合もあれば、
+		# ファーストネームとセカンドネームの組み合わせとして使用される場合もあります。
+		# フルネームと複合名（組み合わせた名前）の両方が使用可能な場合、
+		# 50%の割合でどちらか一方を使用します。
+
+		# 男性/女性キャラクターの場合、
+		# 　対応する性別別のリストが空でない場合に使用されます。
+		# 　そうでない場合は性別を問わないリストを使用されます。
+		# 性別が不明なキャラクターの場合、
+		# 　性別不詳の名前が利用可能な場合はそれを使用します。
+		# 　両方の性別が利用可能な場合、ランダムに選択されます。
+		# 　そうでない場合は性別を問わないリストを使用します。
+		default = {
+			# フルネーム
+			# 性別不詳
+			full_names = {
+			}
+			# 男性用
+			full_names_male = {
+			}
+			# 女性用
+			full_names_female = {
+			}
+
+			# ファーストネーム（セカンドネームと組み合わせて使用される）
+			# 性別不詳
+			first_names = {
+				LITHOID4_CHR_Arkun LITHOID4_CHR_Baldoon LITHOID4_CHR_Balsheer LITHOID4_CHR_Blawk LITHOID4_CHR_Bondun LITHOID4_CHR_Bonsheer LITHOID4_CHR_Doort LITHOID4_CHR_Duptlen LITHOID4_CHR_Flekt LITHOID4_CHR_Flent LITHOID4_CHR_Ghent LITHOID4_CHR_Glimm LITHOID4_CHR_Gorne LITHOID4_CHR_Immart LITHOID4_CHR_Intark LITHOID4_CHR_Jhagg LITHOID4_CHR_Kragg LITHOID4_CHR_Krawk LITHOID4_CHR_Obstane LITHOID4_CHR_Ockten LITHOID4_CHR_Opsheen LITHOID4_CHR_Pebblen LITHOID4_CHR_Petlenn LITHOID4_CHR_Petrus LITHOID4_CHR_Restok LITHOID4_CHR_Ribruck LITHOID4_CHR_Rinnid LITHOID4_CHR_Rukon LITHOID4_CHR_Shar LITHOID4_CHR_Staiock LITHOID4_CHR_Strintock LITHOID4_CHR_Unyarn LITHOID4_CHR_Unyoff
+			}
+			# 男性用
+			first_names_male = {
+			}
+			# 女性用
+			first_names_female = {
+			}
+
+			# セカンドネーム（ファーストネームと組み合わせて使用される）
+			# 性別不詳
+			second_names = {
+				LITHOID4_CHR_Addenmost LITHOID4_CHR_Addenset LITHOID4_CHR_Blettikon LITHOID4_CHR_Dock-Flast LITHOID4_CHR_Dock-Naest LITHOID4_CHR_Goreggnock LITHOID4_CHR_Gringnock LITHOID4_CHR_Immarten LITHOID4_CHR_Intranseck LITHOID4_CHR_Komplinart LITHOID4_CHR_Lapiden LITHOID4_CHR_Nensway LITHOID4_CHR_Nock LITHOID4_CHR_Nock-Sheen LITHOID4_CHR_Noshek LITHOID4_CHR_Obdjoss LITHOID4_CHR_Obduross LITHOID4_CHR_Onphross LITHOID4_CHR_Petron LITHOID4_CHR_Relentine LITHOID4_CHR_Restol LITHOID4_CHR_Staneef LITHOID4_CHR_Stelfrost LITHOID4_CHR_Stelharm LITHOID4_CHR_Stelyold LITHOID4_CHR_Subble LITHOID4_CHR_Unduross LITHOID4_CHR_Unron
+			}
+			# 男性用
+			second_names_male = {
+			}
+			# 女性用
+			second_names_female = {
+			}
+
+			# 政府の種類が use_regnal_names = yes の場合、
+			# 統治者や後継者を生成する際には、通常の名前ではなく王位名を使用します。
+			# 有効な在位名がない場合は、通常の名前を使用します。
+
+			# 在位時のフルネーム
+			# 性別不詳
+			regnal_full_names = {
+			}
+			# 男性用
+			regnal_full_names_male = {
+			}
+			# 女性用
+			regnal_full_names_female = {
+			}
+
+			# 在位時のファーストネーム
+			# 性別不詳
+			regnal_first_names = {
+				LITHOID4_CHR_Dollorne LITHOID4_CHR_Gauldun LITHOID4_CHR_Greppen LITHOID4_CHR_Hasslen LITHOID4_CHR_Inchmar LITHOID4_CHR_Isett LITHOID4_CHR_Klorne LITHOID4_CHR_Methenn LITHOID4_CHR_Monfroken LITHOID4_CHR_Niobun LITHOID4_CHR_Osmunn LITHOID4_CHR_Pallad LITHOID4_CHR_Phorne LITHOID4_CHR_Rhentok LITHOID4_CHR_Rinnosh LITHOID4_CHR_Ruthent LITHOID4_CHR_Salenn LITHOID4_CHR_Samtar LITHOID4_CHR_Uronn LITHOID4_CHR_Wortok
+			}
+			# 男性用
+			regnal_first_names_male = {
+			}
+			# 女性用
+			regnal_first_names_female = {
+			}
+
+			# 在位時のセカンドネーム
+			# 性別不詳
+			regnal_second_names = {
+				LITHOID4_CHR_sharAkten LITHOID4_CHR_sharAlken LITHOID4_CHR_sharAlum LITHOID4_CHR_sharAstatenn LITHOID4_CHR_sharBeryl LITHOID4_CHR_sharBismen LITHOID4_CHR_sharBromm LITHOID4_CHR_sharCaesway LITHOID4_CHR_sharCrambe LITHOID4_CHR_sharHafn LITHOID4_CHR_sharHassen LITHOID4_CHR_sharLanthan LITHOID4_CHR_sharLens LITHOID4_CHR_sharMangon LITHOID4_CHR_sharNock LITHOID4_CHR_sharPlatt LITHOID4_CHR_sharPolway LITHOID4_CHR_sharSamar LITHOID4_CHR_sharStraat LITHOID4_CHR_sharVanadeen
+			}
+			# 男性用
+			regnal_second_names_male = {
+			}
+			# 女性用
+			regnal_second_names_female = {
+			}
+		}
+	}
+}

@@ -1,0 +1,86 @@
+﻿l_japanese:
+#↑日本語であることの指定（消すな！）
+########################################################################
+# 種族に割り当てる呼び名など（機械知性用）
+# portrait_sets の species_class で関連付け
+# plural は複数形
+########################################################################
+# 種族名：名前（全角７文字まで。超えても良いが、画面よっては表示しきれない場合がある。）
+ HNGT_ROBO: "雛型(機械)"
+ HNGT_ROBO_plural: "雛型's(機械)"
+
+# 種族名：形容詞（全角７文字まで。超えても良いが、画面よっては表示しきれない場合がある。）
+ HNGT_ROBO_adj: "雛型(機械)"
+
+# 種族名：概説
+ HNGT_ROBO_desc: "MOD"
+
+# 種族を揶揄する言葉（侮辱）
+# 後ろの数字を増やすことで複数設定可能
+ HNGT_ROBO_insult_01: "ブリキ缶"
+ HNGT_ROBO_insult_plural_01: "トースター"
+
+# 種族を揶揄する言葉（称賛）
+# 後ろの数字を増やすことで複数設定可能
+ HNGT_ROBO_compliment_01: "洗練された自動機械"
+ HNGT_ROBO_compliment_plural_01: "テクノロジーの奇跡"
+
+# 種族の子供を意味する言葉
+ HNGT_ROBO_spawn: "未完成の処理ユニット"
+ HNGT_ROBO_spawn_plural: "若い自動機械"
+
+# 種族を侮辱するときの説明的なノイズ音
+# 5つ書く必要がある。
+#
+# 英wikiの説明と訳
+#"CLASS_sound_X" denotes descriptive noises (e.g. "stupid Robot, will you stop that beeping"). Five must be written.
+#「CLASS_sound_X」は、説明的なノイズ音（例：「バカロボット、そのビープ音をやめてくれないか」）を示します。5つ書く必要があります。
+#
+# ゲーム本体の英語は以下の通り（ロボットの場合）
+# ROBOT_sound_01:0 "whirring"	機械やファンが回転する際に出す連続的な音。
+# ROBOT_sound_02:0 "clanging"	金属がぶつかる際に出る大きくて鋭い音。
+# ROBOT_sound_03:0 "scraping	物が表面をこする際に出る音。
+# ROBOT_sound_04:0 "beeping"	電子機器が発する短くて高い音。
+# ROBOT_sound_05:0 "chattering"	機械などの振動音。
+#
+# ゲーム本体の日本語訳
+# ROBOT_sound_01: "ブーン"
+# ROBOT_sound_02: "カンカン"
+# ROBOT_sound_03: "ギーギー"
+# ROBOT_sound_04: "ビーッ"
+# ROBOT_sound_05: "カタカタ"
+#
+# 上記を参考に設定
+ HNGT_ROBO_sound_01: "ブーン"
+ HNGT_ROBO_sound_02: "カンカン"
+ HNGT_ROBO_sound_03: "ギーギー"
+ HNGT_ROBO_sound_04: "ビーッ"
+ HNGT_ROBO_sound_05: "カタカタ"
+
+# 種族の身体部位の名称
+# 種族が食物を消化するための器官、人間で言う胃に当たる部位
+ HNGT_ROBO_organ: "チップセット"
+ HNGT_ROBO_organ_plural: "チップセット"
+
+# 種族が食物を摂取するための器官、人間で言う口に当たる部位
+ HNGT_ROBO_mouth: "給電ポート"
+
+# 種族が音を聴くための器官、人間で言う耳に当たる部位
+ HNGT_ROBO_ear: "ソナー"
+ HNGT_ROBO_ear_plural: "ソナー"
+
+# 種族が物を拾うために使う部位、人間でいう手に当たる部位
+ HNGT_ROBO_hand: "マニピュレーター"
+ HNGT_ROBO_hand_plural: "マニピュレーター"
+
+# 種族が食物を細かくするための器官、人間で言う歯に当たる部位
+ HNGT_ROBO_tooth: "コンプレッサー"
+ HNGT_ROBO_tooth_plural: "コンプレッサー"
+
+# 種族があとから発掘などされた時に表現する物。化石とか残骸とか
+ HNGT_ROBO_fossil: "錆びた部品"
+ HNGT_ROBO_fossil_plural: "錆びた部品"
+
+# 種族のfossilとして残る物？ 骨格とか部品とか
+ HNGT_ROBO_remnant: "残骸"
+ HNGT_ROBO_remnant_plural: "残骸"
