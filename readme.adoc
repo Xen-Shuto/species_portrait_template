@@ -1,5 +1,7 @@
 = StellarisポートレイトMOD作成用テンプレート
-:author: SubUnit-D817
+:author: Xen-Shuto
+:toc: left
+:toc-title: 目次
 
 == 1.このMODについて
 　これはStellarisのポートレイトMOD作成用の雛型です。 +
