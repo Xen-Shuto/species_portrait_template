@@ -108,7 +108,7 @@ portrait_groups = {
 		}
 		# pop scope
 		# 惑星上のPOP
-		pop = { # for a specific pop
+		pop_group = { # for a specific pop
 			add = {
 				trigger = {
 				# 女性以外（男性または性別不詳）
