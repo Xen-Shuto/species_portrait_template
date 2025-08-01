@@ -35,7 +35,7 @@ DDS(DirectDraw surface)形式とPSD（Photoshopドキュメント）形式が取
 追加できないぞと言われても困る
 * 画像は自分で用意 +
 * サンプル画像は、もっとマシな画像に差し替えるかもしれない +
-* https://github.com/Xen-Shuto/Stellaris_PortraitsMOD_Sample[Stellaris_PortraitsMOD] に当テンプレートで作成したポートレートMODを置いているので、良かったら見てね。
+* https://github.com/Xen-Shuto/Stellaris_PortraitsMOD[Stellaris_PortraitsMOD] に当テンプレートで作成したポートレートMODを置いているので、良かったら見てね。
  
 == 6.使い方
 * CODEからDownload ZIPで丸ごとDownloadしてください。 +
