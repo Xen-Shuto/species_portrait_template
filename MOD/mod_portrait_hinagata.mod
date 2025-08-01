@@ -2,6 +2,6 @@ version="0.0.007"
 tags={
 	"Species"
 }
-name="ポートレイトMOD雛型"
+name="ポートレートMOD雛型"
 supported_version="v4.*.*"
 path="mod/portrait_hinagata"

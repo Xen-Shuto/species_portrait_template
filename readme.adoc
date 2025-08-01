@@ -1,18 +1,18 @@
-= StellarisポートレイトMOD作成用テンプレート
+= StellarisポートレートMOD作成用テンプレート
 :author: Xen-Shuto
 :toc: left
 :toc-title: 目次
 
 == 1.このMODについて
-　これはStellarisのポートレイトMOD作成用の雛型です。 +
-　貴方のポートレイトMOD作成をお手伝いします。
+　これはStellarisのポートレートMOD作成用の雛型です。 +
+　貴方のポートレートMOD作成をお手伝いします。
  
 == 2.できること
-* 静止画ポートレイトMODの作成 +
+* 静止画ポートレートMODの作成 +
  
 == 3.できないこと
 * 上記以外 +
-アニメーションポートレイトMODの作成 +
+アニメーションポートレートMODの作成 +
 名称リストとの連動 +
 その他、起源やイベントの追加など +
  
@@ -22,7 +22,7 @@ notepad（メモ帳）ではダメ！ +
 文字コード指定の出来るテキストエディタが必要 +
 編集するファイルはテキストだが、全てUTF-8 BOM無し（ローカライズのみBOM有り）なので +
 と思っていたが、メモ帳でも ANSI(SJIS)、UTF-8 BOM有り/無しの保存ができる模様 +
-* ポートレイト用の画像 +
+* ポートレート用の画像 +
 最低でも１枚は用意すること +
 ※画像生成AIで作成した画像をサンプル画像として添付しています。 +
 * 画像編集ソフト +
@@ -31,11 +31,11 @@ DDS(DirectDraw surface)形式とPSD（Photoshopドキュメント）形式が取
 作者はPaint.netを使用した +
  
 == 5.その他
-* 作者の環境では雛型のままでポートレイトを追加してプレイできることは確認済みなので、 +
+* 作者の環境では雛型のままでポートレートを追加してプレイできることは確認済みなので、 +
 追加できないぞと言われても困る
 * 画像は自分で用意 +
 * サンプル画像は、もっとマシな画像に差し替えるかもしれない +
-* https://github.com/SubUnit-D817/Stellaris_PortraitsMOD_Sample[Stellaris_PortraitsMOD_Sample] に当テンプレートで作成したポートレイトMODを置いているので、良かったら見てね。
+* https://github.com/Xen-Shuto/Stellaris_PortraitsMOD_Sample[Stellaris_PortraitsMOD] に当テンプレートで作成したポートレートMODを置いているので、良かったら見てね。
  
 == 6.使い方
 * CODEからDownload ZIPで丸ごとDownloadしてください。 +

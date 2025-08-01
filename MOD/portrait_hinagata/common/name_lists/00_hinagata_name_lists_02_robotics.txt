@@ -2,7 +2,7 @@
 ### ベースは X_MACHINE_AGE3.txt
 ### オリジナルで名前リストを作成する場合は、localisation/japanese/name_lists/ に
 ### name_list_(任意の名前)_l_japanese.yml を作成して名称を定義すること。
-### Created by SubUnit-D817
+### Created by Xen-Shuto
 
 HNGT_ROBO = {
 	selectable = {

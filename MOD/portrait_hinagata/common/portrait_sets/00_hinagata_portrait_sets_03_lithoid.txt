@@ -1,5 +1,5 @@
-# 種族のクラスとポートレイト
-# ポートレイトは昔はspecies_classesで設定していた
+# 種族のクラスとポートレート
+# ポートレートは昔はspecies_classesで設定していた
 
 # 岩石種族
 hinagata_lithoid = {
@@ -17,9 +17,9 @@ hinagata_lithoid = {
 			has_lithoids = yes
 		}
 
-		# 使用するポートレイト
+		# 使用するポートレート
 		portraits = {
-			# ポートレイトの識別名
+			# ポートレートの識別名
 			"hinagata_lit01"
 		}
 	}

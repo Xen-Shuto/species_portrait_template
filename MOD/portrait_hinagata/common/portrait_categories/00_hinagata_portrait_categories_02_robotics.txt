@@ -8,7 +8,7 @@ category_hinagata_robo = {
 	# 名称はlocalisationで言語ごとに設定する
 	name = category_hinagata_robo
 
-	# 選択した種族グループで選択できる種族（ポートレイト）
+	# 選択した種族グループで選択できる種族（ポートレート）
 	# portrait_setsで定義している種族カテゴリー内識別子を設定する
 	sets = {
 		# 機械知性用

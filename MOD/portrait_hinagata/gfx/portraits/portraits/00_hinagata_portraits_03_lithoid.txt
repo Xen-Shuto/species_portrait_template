@@ -1,4 +1,4 @@
-# ポートレイトの設定
+# ポートレートの設定
 
 # 画像ファイルの指定
 #   役職別にする必要は無いが、役人らしい恰好、軍人らしい恰好・・・と
@@ -21,19 +21,19 @@ portraits = {
 	hinagata_lit_sample902 = {texturefile = "gfx/models/hinagata_03_lithoid/hinagata_lit_sample902.dds"}
 }
 
-# ポートレイトのグループ
+# ポートレートのグループ
 # 複数パターンを用意する場合はportrait_groupsごと増やすこと
 portrait_groups = {
 
-	# ポートレイトの識別名と設定
+	# ポートレートの識別名と設定
 	# portrait_setsのportraitsで指定することで使えるようになる
 	hinagata_lit01 = {
 
-		# デフォルトで使用するポートレイト
+		# デフォルトで使用するポートレート
 		# 外見選択時の一覧に表示される
 		default = hinagata_lit_sample901
 
-		# 外見選択時に統治者として表示されるポートレイト
+		# 外見選択時に統治者として表示されるポートレート
 		# 複数記述するとランダムで表示
 		# 最初の統治者の選択（遺伝的形質）にも使われる
 		game_setup = {
@@ -137,7 +137,7 @@ portrait_groups = {
 			}
 		}
 		# leader scope
-		# リーダーのポートレイト
+		# リーダーのポートレート
 		leader = { # official:役人, scientists:科学者, commander:司令官, envoy:使節
 			# 役職ごとにわける必要がない場合の設定
 			##add = {
@@ -295,7 +295,7 @@ portrait_groups = {
 			}
 		}
 		# leader scope
-		# リーダーのポートレイト（統治者専用？　上のと何が違う？）
+		# リーダーのポートレート（統治者専用？　上のと何が違う？）
 		ruler = {
 			add = {
 				# 男性または性別不詳

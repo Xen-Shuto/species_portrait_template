@@ -1,5 +1,5 @@
-# 種族のクラスとポートレイト
-# ポートレイトは昔はspecies_classesで設定していた
+# 種族のクラスとポートレート
+# ポートレートは昔はspecies_classesで設定していた
 
 # 機械知性
 hinagata_robo = {
@@ -23,9 +23,9 @@ hinagata_robo = {
 			}
 		}
 
-		# 使用するポートレイト
+		# 使用するポートレート
 		portraits = {
-			# ポートレイトの識別名
+			# ポートレートの識別名
 			"hinagata_robo01"
 		}
 	}

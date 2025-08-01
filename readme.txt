@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------
---  StellarisポートレイトMOD作成用テンプレート
---  作った人：SubUnit-D817
+--  StellarisポートレートMOD作成用テンプレート
+--  作った人：Xen-Shuto
 --  更新履歴：00.00.001：2024/08/16：新規作成
 --          ：00.00.002：2024/08/17：GitHubに登録。体裁を整える。
 --          ：00.00.003：2024/08/20：portrait_categoriesを種族ごとに分割。サンプル画像差し替え。
@@ -13,7 +13,7 @@
 --  タブは８文字
 ------------------------------------------------------------------------
 ・はじめに
-　これは自分がStellarisのポートレイトMOD作成するにあたり、
+　これは自分がStellarisのポートレートMOD作成するにあたり、
 　めんどくせぇ・・・雛型でもあれば良いのにと思い立ち、
 　どうせ作るなら誰でも使えるようなものがあればいいのでは？
 　需要があればだけど・・・
@@ -23,11 +23,11 @@
 
 
 ・できること
-　・静止画ポートレイトMODの作成
+　・静止画ポートレートMODの作成
 
 ・できないこと
 　・上記以外
-　　アニメーションポートレイトMODの作成
+　　アニメーションポートレートMODの作成
 　　名称リストとの連動
 　　その他、起源やイベントの追加など
 
@@ -37,7 +37,7 @@
 　　文字コード指定の出来るテキストエディタが必要
 　　編集するファイルはテキストだが、全てUTF-8 BOM無し（ローカライズのみBOM有り）なので
 
-　・ポートレイト用の画像
+　・ポートレート用の画像
 　　最低でも１枚は用意すること
 　　※画像生成AIで作成した画像をサンプル画像として添付しています。
 
@@ -48,7 +48,7 @@
 
 
 ・その他
-　・作者の環境では雛型のままでポートレイトを追加してプレイできることは確認済みなので、
+　・作者の環境では雛型のままでポートレートを追加してプレイできることは確認済みなので、
 　　追加できないぞと言われても困る
 
 　・画像は自分で用意
@@ -65,12 +65,12 @@
 ------------------------------------------------------------------------
 species_portrait_template
 │  readme.txt								：このファイル
-│  template.psd							：ポートレイト画像のテンプレ（位置確認用）
+│  template.psd							：ポートレート画像のテンプレ（位置確認用）
 │
 └─MOD
     │  mod_portrait_hinagata.mod					：PC用MOD定義
     │
-    └─portrait_hinagata						：ポートレイトMOD本体
+    └─portrait_hinagata						：ポートレートMOD本体
         │  descriptor.mod						：ランチャー用MOD定義
         │
         ├─common
@@ -84,7 +84,7 @@ species_portrait_template
         │  │      00_hinagata_portrait_categories_02_robotics.txt	：　機械知性用定義
         │  │      00_hinagata_portrait_categories_03_lithoid.txt	：　岩石種族用定義
         │  │
-        │  ├─portrait_sets						：種族ポートレイト定義
+        │  ├─portrait_sets						：種族ポートレート定義
         │  │      00_hinagata_portrait_sets_01_bio.txt		：　有機生命体用定義
         │  │      00_hinagata_portrait_sets_02_robotics.txt		：　機械知性用定義
         │  │      00_hinagata_portrait_sets_03_lithoid.txt		：　岩石種族用定義
@@ -100,8 +100,8 @@ species_portrait_template
         │          00_hinagata_species_names_03_lithoid.txt		：　岩石種族用定義
         │
         ├─gfx
-        │  ├─models							：ポートレイト画像格納フォルダ
-        │  │  ├─hinagata_01_bio					：有機生命体用ポートレイト画像
+        │  ├─models							：ポートレート画像格納フォルダ
+        │  │  ├─hinagata_01_bio					：有機生命体用ポートレート画像
         │  │  │      hinagata_bio_sample001.dds			：　サンプル画像[役人/男性]	※役職でわける必要は無い
         │  │  │      hinagata_bio_sample002.dds			：　サンプル画像[役人/女性]
         │  │  │      hinagata_bio_sample101.dds			：　サンプル画像[科学者/男性]
@@ -113,7 +113,7 @@ species_portrait_template
         │  │  │      hinagata_bio_sample901.dds			：　サンプル画像[汎用/男性]
         │  │  │      hinagata_bio_sample902.dds			：　サンプル画像[汎用/女性]
         │  │  │
-        │  │  ├─hinagata_02_robotics				：機械知性用ポートレイト画像
+        │  │  ├─hinagata_02_robotics				：機械知性用ポートレート画像
         │  │  │      hinagata_robo_sample001.dds			：　サンプル画像[役人/男性]	※役職でわける必要は無い                
         │  │  │      hinagata_robo_sample002.dds			：　サンプル画像[役人/女性]
         │  │  │      hinagata_robo_sample101.dds			：　サンプル画像[科学者/男性]
@@ -125,7 +125,7 @@ species_portrait_template
         │  │  │      hinagata_robo_sample901.dds			：　サンプル画像[汎用/男性]
         │  │  │      hinagata_robo_sample902.dds			：　サンプル画像[汎用/女性]
         │  │  │
-        │  │  └─hinagata_03_lithoid					：岩石種族用ポートレイト画像
+        │  │  └─hinagata_03_lithoid					：岩石種族用ポートレート画像
         │  │          hinagata_lit_sample001.dds			：　サンプル画像[役人/男性]	※役職でわける必要は無い
         │  │          hinagata_lit_sample002.dds			：　サンプル画像[役人/女性]
         │  │          hinagata_lit_sample101.dds			：　サンプル画像[科学者/男性]
@@ -138,7 +138,7 @@ species_portrait_template
         │  │          hinagata_lit_sample902.dds			：　サンプル画像[汎用/女性]
         │  │
         │  └─portraits
-        │      └─portraits						：ポートレイト定義
+        │      └─portraits						：ポートレート定義
         │              00_hinagata_portraits_01_bio.txt		：　有機生命体用定義
         │              00_hinagata_portraits_02_robotics.txt		：　機械知性用定義
         │              00_hinagata_portraits_03_lithoid.txt		：　岩石種族用定義
@@ -162,7 +162,7 @@ species_portrait_template
 
 の２つをMOD格納用フォルダに突っ込めば、
 種族リストに「雛型」という名称でテスト用の画像を使った
-ポートレイトが選択可能になります。
+ポートレートが選択可能になります。
 
 ▼MOD格納用フォルダ（Windowsの設定を変えていなければ）
 C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
@@ -170,13 +170,13 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 ------------------------------------------------------------------------
 --  設定方法
 ------------------------------------------------------------------------
-一応、以下の手順で自前のポートレイト追加MODにできるけど、
+一応、以下の手順で自前のポートレート追加MODにできるけど、
 めんどくさければ（種族名等を気にしないのであれば）画像の差し替えだけで機能する。
 
 
 １）フォルダ名、ファイル名の変更
 
-　※そのまま使ってもいいけど、後から別のポートレイト増やしたいなら変えておくのを推奨
+　※そのまま使ってもいいけど、後から別のポートレート増やしたいなら変えておくのを推奨
 
 　・フォルダ名、ファイル名に含まれる「hinagata」を全て変更する
 　　種族名の英字が良いと思います。
@@ -192,7 +192,7 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 	tags={
 		"Species"		：ここはMODの追加時に設定したタグなので、特に変える必要は無い
 	}
-	name="ポートレイトMOD雛型"	：たぶんワークショップに表示されるMODの名前（わかり易い名前に）
+	name="ポートレートMOD雛型"	：たぶんワークショップに表示されるMODの名前（わかり易い名前に）
 	supported_version="v3.12.*"	：MODが対応するゲームのバージョン（多少違っても問題ない。24/8/16時点ではv3.12.5）
 	path="mod/portrait_hinagata"	：MODのパス　変更後のフォルダ名に変更する
 ********
@@ -209,7 +209,7 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 	tags={
 		"Species"		：ここはMODの追加時に設定したタグなので、特に変える必要は無い
 	}
-	name="ポートレイトMOD雛型"	：ランチャーに表示されるMODの名前（わかり易い名前に）
+	name="ポートレートMOD雛型"	：ランチャーに表示されるMODの名前（わかり易い名前に）
 	supported_version="v3.12.*"	：MODが対応するゲームのバージョン（多少違っても問題ない。24/8/16時点ではv3.12.5）
 ********
 
@@ -229,7 +229,7 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 　・SJISで保存する
 
 
-５）種族ポートレイト定義（portrait_sets）の編集
+５）種族ポートレート定義（portrait_sets）の編集
 
 　・有機生命体用、機械知性用、岩石種族用のファイルがあるので、
 　　不要な種族を削除する。
@@ -276,10 +276,10 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 
 　・DDS(DirectDraw surface)形式で保存する
 
-　・作成したDDS形式の画像をポートレイト画像格納フォルダに配置する
+　・作成したDDS形式の画像をポートレート画像格納フォルダに配置する
 
 
-９）ポートレイト定義（portraits）の編集
+９）ポートレート定義（portraits）の編集
 
 　・有機生命体用、機械知性用、岩石種族用のファイルがあるので、
 　　不要な種族を削除する。
@@ -295,7 +295,7 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 　　※「xxxxx」は「hinagata」から変更した種族名の英字
 　　※「gazou.dds」は実際の画像ファイル名
 
-　・各設定で私用したいポートレイトを識別子で記述する
+　・各設定で私用したいポートレートを識別子で記述する
 　　portraitsの中にあるtxtを見てもらえば、たぶんわかると思う・・・
 
 　・SJISで保存する
@@ -303,7 +303,7 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 
 １０）MODの配置と動作確認
 
-　・MOD格納用フォルダにMOD定義とポートレイトMODフォルダを配置する
+　・MOD格納用フォルダにMOD定義とポートレートMODフォルダを配置する
 
 　・Stellarisを起動する
 
@@ -324,22 +324,22 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 　　　　⇒表示されるが名称がおかしい場合、ローカライズ定義が誤っていると思われる
 　　　　　見直してください。
 
-　　・外見選択後、ポートレイトの一覧が表示されるか
-　　　　⇒表示されない場合、種族定義、種族ポートレイト定義、ポートレイト定義が誤っていると思われる
+　　・外見選択後、ポートレートの一覧が表示されるか
+　　　　⇒表示されない場合、種族定義、種族ポートレート定義、ポートレート定義が誤っていると思われる
 　　　　　見直してください。
 
-　　・統治者の外見が表示されるか、性別、遺伝的形質の変更でポートレイトも切り替わるか
-　　　　⇒外見が表示されない場合、ポートレイト定義が誤っている
+　　・統治者の外見が表示されるか、性別、遺伝的形質の変更でポートレートも切り替わるか
+　　　　⇒外見が表示されない場合、ポートレート定義が誤っている
 　　　　　見直してください。
-　　　　⇒性別変更で画像が切り替わらない場合、ポートレイト定義が誤っているか、そもそも１つしか定義していない
+　　　　⇒性別変更で画像が切り替わらない場合、ポートレート定義が誤っているか、そもそも１つしか定義していない
 　　　　　見直してください。
-　　　　⇒遺伝的形質の変更で画像が切り替わらない場合、ポートレイト定義が誤っているか、そもそも１つしか定義していない
+　　　　⇒遺伝的形質の変更で画像が切り替わらない場合、ポートレート定義が誤っているか、そもそも１つしか定義していない
 　　　　　見直してください。
 
 　　・上記が問題無ければゲームを開始する
 
-　　・各種画面でポートレイトが想定通りに表示されているか
-　　　　⇒表示されていない場合、ポートレイト定義が誤っている
+　　・各種画面でポートレートが想定通りに表示されているか
+　　　　⇒表示されていない場合、ポートレート定義が誤っている
 　　　　　見直してください。
 　　　　⇒ずれて表示されている場合、template.psdで画像の配置を確認してDDS画像ファイルを作り直す
 

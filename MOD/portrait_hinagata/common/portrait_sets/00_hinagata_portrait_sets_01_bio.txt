@@ -1,5 +1,5 @@
-# 種族のクラスとポートレイト
-# ポートレイトは昔はspecies_classesで設定していた
+# 種族のクラスとポートレート
+# ポートレートは昔はspecies_classesで設定していた
 
 # 有機生命体
 hinagata_bio = {
@@ -19,9 +19,9 @@ hinagata_bio = {
 	#  HUM       : ヒューマノイド、サイバネティック、人工生命体
 	species_class = HUM
 
-	# 使用するポートレイト
+	# 使用するポートレート
 	portraits = {
-		# ポートレイトの識別名
+		# ポートレートの識別名
 		"hinagata_bio01"
 	}
 
