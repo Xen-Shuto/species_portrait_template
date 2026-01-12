@@ -64,93 +64,93 @@
 --  フォルダ構成
 ------------------------------------------------------------------------
 species_portrait_template
-│  readme.txt								：このファイル
-│  template.psd							：ポートレート画像のテンプレ（位置確認用）
+│  readme.txt														：このファイル
+│  template.psd													：ポートレート画像のテンプレ（位置確認用）
 │
 └─MOD
-    │  mod_portrait_hinagata.mod					：PC用MOD定義
+    │  mod_portrait_hinagata.mod									：PC用MOD定義
     │
-    └─portrait_hinagata						：ポートレートMOD本体
-        │  descriptor.mod						：ランチャー用MOD定義
+    └─portrait_hinagata											：ポートレートMOD本体
+        │  descriptor.mod											：ランチャー用MOD定義
         │
         ├─common
-        │  ├─name_lists						：名称リスト定義
-        │  │      00_hinagata_name_lists_01_bio.txt			：　有機生命体用定義
-        │  │      00_hinagata_name_lists_02_robotics.tx	t	：　機械知性用定義
-        │  │      00_hinagata_name_lists_03_lithoid.txt		：　岩石種族用定義
+        │  ├─name_lists											：名称リスト定義
+        │  │      00_hinagata_name_lists_01_bio.txt				：　有機生命体用定義
+        │  │      00_hinagata_name_lists_02_robotics.txt			：　機械知性用定義
+        │  │      00_hinagata_name_lists_03_lithoid.txt			：　岩石種族用定義
         │  │
-        │  ├─portrait_categories					：種族選択画面表示用定義
+        │  ├─portrait_categories									：種族選択画面表示用定義
         │  │      00_hinagata_portrait_categories_01_bio.txt		：　有機生命体用定義
         │  │      00_hinagata_portrait_categories_02_robotics.txt	：　機械知性用定義
         │  │      00_hinagata_portrait_categories_03_lithoid.txt	：　岩石種族用定義
         │  │
-        │  ├─portrait_sets						：種族ポートレート定義
-        │  │      00_hinagata_portrait_sets_01_bio.txt		：　有機生命体用定義
+        │  ├─portrait_sets										：種族ポートレート定義
+        │  │      00_hinagata_portrait_sets_01_bio.txt			：　有機生命体用定義
         │  │      00_hinagata_portrait_sets_02_robotics.txt		：　機械知性用定義
         │  │      00_hinagata_portrait_sets_03_lithoid.txt		：　岩石種族用定義
         │  │
-        │  ├─species_classes						：種族定義
-        │  │      00_hinagata_species_classes_01_bio.txt		：　有機生命体用定義
+        │  ├─species_classes										：種族定義
+        │  │      00_hinagata_species_classes_01_bio.txt			：　有機生命体用定義
         │  │      00_hinagata_species_classes_02_robotics.txt		：　機械知性用定義
         │  │      00_hinagata_species_classes_03_lithoid.txt		：　岩石種族用定義
         │  │
-        │  └─species_names						：種族名称定義
-        │          00_hinagata_species_names_01_bio.txt		：　有機生命体用定義
+        │  └─species_names										：種族名称定義
+        │          00_hinagata_species_names_01_bio.txt			：　有機生命体用定義
         │          00_hinagata_species_names_02_robotics.txt		：　機械知性用定義
         │          00_hinagata_species_names_03_lithoid.txt		：　岩石種族用定義
         │
         ├─gfx
-        │  ├─models							：ポートレート画像格納フォルダ
-        │  │  ├─hinagata_01_bio					：有機生命体用ポートレート画像
-        │  │  │      hinagata_bio_sample001.dds			：　サンプル画像[役人/男性]	※役職でわける必要は無い
-        │  │  │      hinagata_bio_sample002.dds			：　サンプル画像[役人/女性]
-        │  │  │      hinagata_bio_sample101.dds			：　サンプル画像[科学者/男性]
-        │  │  │      hinagata_bio_sample102.dds			：　サンプル画像[科学者/女性]
-        │  │  │      hinagata_bio_sample201.dds			：　サンプル画像[司令官/男性]
-        │  │  │      hinagata_bio_sample202.dds			：　サンプル画像[司令官/女性]
-        │  │  │      hinagata_bio_sample301.dds			：　サンプル画像[使節/男性]
-        │  │  │      hinagata_bio_sample302.dds			：　サンプル画像[使節/女性]
-        │  │  │      hinagata_bio_sample901.dds			：　サンプル画像[汎用/男性]
-        │  │  │      hinagata_bio_sample902.dds			：　サンプル画像[汎用/女性]
+        │  ├─models												：ポートレート画像格納フォルダ
+        │  │  ├─hinagata_01_bio									：有機生命体用ポートレート画像
+        │  │  │      hinagata_bio_sample001.dds					：　サンプル画像[役人/男性]	※役職でわける必要は無い
+        │  │  │      hinagata_bio_sample002.dds					：　サンプル画像[役人/女性]
+        │  │  │      hinagata_bio_sample101.dds					：　サンプル画像[科学者/男性]
+        │  │  │      hinagata_bio_sample102.dds					：　サンプル画像[科学者/女性]
+        │  │  │      hinagata_bio_sample201.dds					：　サンプル画像[司令官/男性]
+        │  │  │      hinagata_bio_sample202.dds					：　サンプル画像[司令官/女性]
+        │  │  │      hinagata_bio_sample301.dds					：　サンプル画像[使節/男性]
+        │  │  │      hinagata_bio_sample302.dds					：　サンプル画像[使節/女性]
+        │  │  │      hinagata_bio_sample901.dds					：　サンプル画像[汎用/男性]
+        │  │  │      hinagata_bio_sample902.dds					：　サンプル画像[汎用/女性]
         │  │  │
-        │  │  ├─hinagata_02_robotics				：機械知性用ポートレート画像
-        │  │  │      hinagata_robo_sample001.dds			：　サンプル画像[役人/男性]	※役職でわける必要は無い                
-        │  │  │      hinagata_robo_sample002.dds			：　サンプル画像[役人/女性]
-        │  │  │      hinagata_robo_sample101.dds			：　サンプル画像[科学者/男性]
-        │  │  │      hinagata_robo_sample102.dds			：　サンプル画像[科学者/女性]
-        │  │  │      hinagata_robo_sample201.dds			：　サンプル画像[司令官/男性]
-        │  │  │      hinagata_robo_sample202.dds			：　サンプル画像[司令官/女性]
-        │  │  │      hinagata_robo_sample301.dds			：　サンプル画像[使節/男性]
-        │  │  │      hinagata_robo_sample302.dds			：　サンプル画像[使節/女性]
-        │  │  │      hinagata_robo_sample901.dds			：　サンプル画像[汎用/男性]
-        │  │  │      hinagata_robo_sample902.dds			：　サンプル画像[汎用/女性]
+        │  │  ├─hinagata_02_robotics							：機械知性用ポートレート画像
+        │  │  │      hinagata_robo_sample001.dds					：　サンプル画像[役人/男性]	※役職でわける必要は無い
+        │  │  │      hinagata_robo_sample002.dds					：　サンプル画像[役人/女性]
+        │  │  │      hinagata_robo_sample101.dds					：　サンプル画像[科学者/男性]
+        │  │  │      hinagata_robo_sample102.dds					：　サンプル画像[科学者/女性]
+        │  │  │      hinagata_robo_sample201.dds					：　サンプル画像[司令官/男性]
+        │  │  │      hinagata_robo_sample202.dds					：　サンプル画像[司令官/女性]
+        │  │  │      hinagata_robo_sample301.dds					：　サンプル画像[使節/男性]
+        │  │  │      hinagata_robo_sample302.dds					：　サンプル画像[使節/女性]
+        │  │  │      hinagata_robo_sample901.dds					：　サンプル画像[汎用/男性]
+        │  │  │      hinagata_robo_sample902.dds					：　サンプル画像[汎用/女性]
         │  │  │
-        │  │  └─hinagata_03_lithoid					：岩石種族用ポートレート画像
-        │  │          hinagata_lit_sample001.dds			：　サンプル画像[役人/男性]	※役職でわける必要は無い
-        │  │          hinagata_lit_sample002.dds			：　サンプル画像[役人/女性]
-        │  │          hinagata_lit_sample101.dds			：　サンプル画像[科学者/男性]
-        │  │          hinagata_lit_sample102.dds			：　サンプル画像[科学者/女性]
-        │  │          hinagata_lit_sample201.dds			：　サンプル画像[司令官/男性]
-        │  │          hinagata_lit_sample202.dds			：　サンプル画像[司令官/女性]
-        │  │          hinagata_lit_sample301.dds			：　サンプル画像[使節/男性]
-        │  │          hinagata_lit_sample302.dds			：　サンプル画像[使節/女性]
-        │  │          hinagata_lit_sample901.dds			：　サンプル画像[汎用/男性]
-        │  │          hinagata_lit_sample902.dds			：　サンプル画像[汎用/女性]
+        │  │  └─hinagata_03_lithoid								：岩石種族用ポートレート画像
+        │  │          hinagata_lit_sample001.dds					：　サンプル画像[役人/男性]	※役職でわける必要は無い
+        │  │          hinagata_lit_sample002.dds					：　サンプル画像[役人/女性]
+        │  │          hinagata_lit_sample101.dds					：　サンプル画像[科学者/男性]
+        │  │          hinagata_lit_sample102.dds					：　サンプル画像[科学者/女性]
+        │  │          hinagata_lit_sample201.dds					：　サンプル画像[司令官/男性]
+        │  │          hinagata_lit_sample202.dds					：　サンプル画像[司令官/女性]
+        │  │          hinagata_lit_sample301.dds					：　サンプル画像[使節/男性]
+        │  │          hinagata_lit_sample302.dds					：　サンプル画像[使節/女性]
+        │  │          hinagata_lit_sample901.dds					：　サンプル画像[汎用/男性]
+        │  │          hinagata_lit_sample902.dds					：　サンプル画像[汎用/女性]
         │  │
         │  └─portraits
-        │      └─portraits						：ポートレート定義
-        │              00_hinagata_portraits_01_bio.txt		：　有機生命体用定義
+        │      └─portraits										：ポートレート定義
+        │              00_hinagata_portraits_01_bio.txt			：　有機生命体用定義
         │              00_hinagata_portraits_02_robotics.txt		：　機械知性用定義
         │              00_hinagata_portraits_03_lithoid.txt		：　岩石種族用定義
         │
-        └─localisation						：ローカライズ定義（言語ごと）
-            └─japanese						：日本語用定義（他には英/葡/仏/独/波/露/西/韓/中がある）
-                │  hinagata_l_japanese.yml				：　共通の定義
-                │  hinagata_l_japanese_01_bio.yml			：　有機生命体用定義
-                │  hinagata_l_japanese_02_robotics.yml			：　機械知性用定義
-                │  hinagata_l_japanese_03_lithoid.yml			：　岩石種族用定義
+        └─localisation											：ローカライズ定義（言語ごと）
+            └─japanese											：日本語用定義（他には英/葡/仏/独/波/露/西/韓/中がある）
+                │  hinagata_l_japanese.yml							：　共通の定義
+                │  hinagata_l_japanese_01_bio.yml					：　有機生命体用定義
+                │  hinagata_l_japanese_02_robotics.yml				：　機械知性用定義
+                │  hinagata_l_japanese_03_lithoid.yml				：　岩石種族用定義
                 │  
-                └─name_lists						：名称リストを自分で定義する時用のフォルダ
+                └─name_lists										：名称リストを自分で定義する時用のフォルダ
 
 ------------------------------------------------------------------------
 --  説明
@@ -188,12 +188,12 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 　　また、フォルダ名も変更しているはずなので、ここで修正する
 
 ********
-	version="0.0.1"			：このMODのバージョン（お好きな値で）
+	version="0.0.1"					：このMODのバージョン（お好きな値で）
 	tags={
-		"Species"		：ここはMODの追加時に設定したタグなので、特に変える必要は無い
+		"Species"					：ここはMODの追加時に設定したタグなので、特に変える必要は無い
 	}
-	name="ポートレートMOD雛型"	：たぶんワークショップに表示されるMODの名前（わかり易い名前に）
-	supported_version="v3.12.*"	：MODが対応するゲームのバージョン（多少違っても問題ない。24/8/16時点ではv3.12.5）
+	name="ポートレートMOD雛型"		：たぶんワークショップに表示されるMODの名前（わかり易い名前に）
+	supported_version="v4.*.*"		：MODが対応するゲームのバージョン（多少違っても問題ない。26/1/11時点ではv4.2.4）
 	path="mod/portrait_hinagata"	：MODのパス　変更後のフォルダ名に変更する
 ********
 
@@ -205,12 +205,12 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 　・MODの名称を設定する
 
 ********
-	version="0.0.1"			：このMODのバージョン（お好きな値で）
+	version="0.0.1"					：このMODのバージョン（お好きな値で）
 	tags={
-		"Species"		：ここはMODの追加時に設定したタグなので、特に変える必要は無い
+		"Species"					：ここはMODの追加時に設定したタグなので、特に変える必要は無い
 	}
-	name="ポートレートMOD雛型"	：ランチャーに表示されるMODの名前（わかり易い名前に）
-	supported_version="v3.12.*"	：MODが対応するゲームのバージョン（多少違っても問題ない。24/8/16時点ではv3.12.5）
+	name="ポートレートMOD雛型"		：ランチャーに表示されるMODの名前（わかり易い名前に）
+	supported_version="v4.*.*"		：MODが対応するゲームのバージョン（多少違っても問題ない。26/1/11時点ではv4.2.4）
 ********
 
 　・UTF-8 BOM無しで保存する
@@ -267,7 +267,7 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 
 　・Paint.Netがあると良い
 
-　・画像サイズは360x360
+　・画像サイズは360x360 （最大でも400pxまでが推奨。左右は800pxくらいまでいける。）
 
 　・同梱しているtemplate.psdで表示範囲を確認しながら、サイズと配置を決める
 　　上左右は枠内に収めると見栄えが良い。下ははみ出すくらいに
