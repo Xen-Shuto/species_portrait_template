@@ -297,7 +297,7 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 
 　・Paint.Netがあると良い
 
-　・画像サイズは360x360 （最大でも400pxまでが推奨。左右は800pxくらいまでいける。）
+　・画像サイズは360x360 （最大でも400pxまでが推奨。左右は560pxくらいまでいける。）
 
 　・同梱しているtemplate.psdで表示範囲を確認しながら、サイズと配置を決める
 　　上左右は枠内に収めると見栄えが良い。下ははみ出すくらいに
@@ -378,5 +378,6 @@ C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\mod\
 
 　・ここまできたら正常にゲームがプレイできるはずです。
 　　おつかれさまでした！
+
 
 
