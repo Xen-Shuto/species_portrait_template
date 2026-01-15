@@ -1,0 +1,44 @@
+﻿l_japanese:
+#↑日本語であることの指定（消すな！）
+####################################
+# Species Classes
+####################################
+
+# 種族グループ名（全角７文字まで。超えても良いが、画面よっては表示しきれない場合がある。）
+ category_Template: "雛型"
+
+# 名称リスト（全角７文字まで。超えても良いが、画面よっては表示しきれない場合がある。）
+# portrait_sets の species_class で関連付け
+# ※この雛型では取り扱わない）
+ name_list_MODTPL_BIO: "雛型"
+ name_list_MODTPL_ROBO: "雛型(機械)"
+ name_list_MODTPL_LIT: "雛型(岩石)"
+
+########################################################################
+# 種族名やホーム惑星の名前
+########################################################################
+# 種族名
+ SPEC_MODTPL1: "雛型1"
+ SPEC_MODTPL2: "雛型2"
+ SPEC_MODTPL3: "雛型3"
+ SPEC_MODTPL4: "雛型4"
+ SPEC_MODTPL5: "雛型5"
+# 種族名(複数形)
+ SPEC_MODTPL_pl1: "雛型Ｓ1"
+ SPEC_MODTPL_pl2: "雛型Ｓ2"
+ SPEC_MODTPL_pl3: "雛型Ｓ3"
+ SPEC_MODTPL_pl4: "雛型Ｓ4"
+ SPEC_MODTPL_pl5: "雛型Ｓ5"
+# 母星名
+ SPEC_MODTPL_planet1: "母星1"
+ SPEC_MODTPL_planet2: "母星2"
+ SPEC_MODTPL_planet3: "母星3"
+ SPEC_MODTPL_planet4: "母星4"
+ SPEC_MODTPL_planet5: "母星5"
+# 星系名
+ SPEC_MODTPL_system1: "星系1"
+ SPEC_MODTPL_system2: "星系2"
+ SPEC_MODTPL_system3: "星系3"
+ SPEC_MODTPL_system4: "星系4"
+ SPEC_MODTPL_system5: "星系5"
+
