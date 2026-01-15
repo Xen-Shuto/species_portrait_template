@@ -1,0 +1,45 @@
+########################################################################
+# ランダム生成される帝国名用の定義
+# name : 種族名
+# plural : 種族名(複数形)
+# home_planet : 惑星名
+# home_system : 恒星名
+# name_list : ネームリスト
+########################################################################
+MODTPL_BIO = {
+	MODTPL_BIO1 = {
+		name = SPEC_MODTPL1
+		plural = SPEC_MODTPL_pl1
+		home_planet = SPEC_MODTPL_planet1
+		home_system = SPEC_MODTPL_system1
+		name_list =  "MODTPL_BIO"
+	}
+	MODTPL_BIO2 = {
+		name = SPEC_MODTPL2
+		plural = SPEC_MODTPL_pl2
+		home_planet = SPEC_MODTPL_planet2
+		home_system = SPEC_MODTPL_system2
+		name_list =  "MODTPL_BIO"
+	}
+	MODTPL_BIO3 = {
+		name = SPEC_MODTPL3
+		plural = SPEC_MODTPL_pl3
+		home_planet = SPEC_MODTPL_planet3
+		home_system = SPEC_MODTPL_system3
+		name_list =  "MODTPL_BIO"
+	}
+	MODTPL_BIO4 = {
+		name = SPEC_MODTPL4
+		plural = SPEC_MODTPL_pl4
+		home_planet = SPEC_MODTPL_planet4
+		home_system = SPEC_MODTPL_system4
+		name_list =  "MODTPL_BIO"
+	}
+	MODTPL_BIO5 = {
+		name = SPEC_MODTPL5
+		plural = SPEC_MODTPL_pl5
+		home_planet = SPEC_MODTPL_planet5
+		home_system = SPEC_MODTPL_system5
+		name_list =  "MODTPL_BIO"
+	}
+}

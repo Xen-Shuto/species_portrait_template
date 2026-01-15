@@ -1,0 +1,138 @@
+# 種族クラスの設定（機械知性）
+
+MODTPL_MECH = {
+#↑種族識別子：localisationの各種言語用の定義や名称リストとの関連付けに使用しているので注意
+
+	# 種族タイプ
+	# 以下の６種類　オリジナルの種族も作れるが、このテンプレートではそこまで対応しない
+	#  BIOLOGICAL: 有機生命体
+	#  ROBOT     : ロボット
+	#  MACHINE   : 機械生命体
+	#  PRESAPIENT: 準知的生命体
+	#  LITHOID   : 岩石生命体
+	#  OTHER     : その他
+	archetype = MACHINE
+
+	# この種族を利用可能な条件【変更不可】
+	possible = {
+		AND = {
+			limit = {
+				has_machine_age_dlc = yes
+			}
+			authority = {
+				NOT = {
+					value = auth_hive_mind
+				}
+			}
+		}
+		AND = {
+			limit = {
+				has_machine_age_dlc = no
+			}
+			authority = { # Prunes every potential authority except machine intelligence
+				NOR = {
+					value = auth_democratic
+					value = auth_oligarchic
+					value = auth_dictatorial
+					value = auth_imperial
+					value = auth_hive_mind
+					value = auth_ancient_machine_intelligence
+					value = auth_corporate
+					text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE
+				}
+			}
+			ethics = { # Prunes every potential etchic except gestalt consciousness
+				NOR = {
+					value = ethic_fanatic_authoritarian
+					value = ethic_authoritarian
+					value = ethic_fanatic_egalitarian
+					value = ethic_egalitarian
+					value = ethic_fanatic_xenophobe
+					value = ethic_xenophobe
+					value = ethic_fanatic_xenophile
+					value = ethic_xenophile
+					value = ethic_fanatic_militarist
+					value = ethic_militarist
+					value = ethic_fanatic_pacifist
+					value = ethic_pacifist
+					value = ethic_fanatic_spiritualist
+					value = ethic_spiritualist
+					value = ethic_fanatic_materialist
+					value = ethic_materialist
+					text = SPECIES_CLASS_MUST_USE_GESTALT_CONSCIOUSNESS
+				}
+			}
+		}
+		AND = {
+			limit = {
+				has_synthetic_dawn = no
+				has_machine_age_dlc = no
+				has_shroud_dlc = yes
+			}
+			origin = {
+				value = origin_shroud_forged
+			}
+		}
+	}
+	possible_secondary = {
+		always = no
+		text = SECONDARY_SPECIES_CLASS_INVALID
+	}
+
+	# プレイ可能な条件【変更不可】
+	# 機械知性はDLC(Synthetic Dawn)または(Machine Age)が必須
+	playable = {
+		OR = {
+			has_synthetic_dawn = yes
+			has_machine_age_dlc = yes
+			AND = {
+				is_scope_valid = yes
+				has_origin = origin_shroud_forged
+			}
+		}
+	}
+
+	# ランダム生成(yes/no)
+	# AI帝国がこの種族を選択可能か否か(初期値:yes)
+	# noにすると、自作帝国をAIに使わせたくても出てこないらしい・・・
+	randomized = {
+		OR = {
+			has_synthetic_dawn = yes
+			has_machine_age_dlc = yes
+			AND = {
+				is_scope_valid = yes
+				has_origin = origin_shroud_forged
+			}
+		}
+		# The create_species effect can't properly take the possible trigger below into account.
+		# Work around this by disabling this class for species randomization after game start.
+		NOT = {
+			has_global_flag = game_started
+		}
+	}
+
+	# デフォルト種族特性「機械」【変更不可】
+	trait = trait_machine_unit
+
+	# 性別の有無(yes/no)
+	# この種族は性別があるか(初期値:yes)
+	# 統治者の設定時に男性のみ/女性のみ/性別無しを選択できる
+	# noにすると性別はなくなり、上記の選択もなくなる
+	#gender = yes
+
+	# リーダー雇用時の年齢下限／上限
+	# 帝国作成時に変更できないマスク設定
+	leader_age_min = 5
+	leader_age_max = 10
+
+	# 艦船セットを利用しない
+	generate_shipset = no
+
+	# 都市外観と艦船外観の初期選択値
+	# 帝国作成時に変更できる
+	graphical_culture = synthetics_01
+
+	# popを動かしたときの音
+	move_pop_sound_effect = "robot_pops_move"
+
+}
