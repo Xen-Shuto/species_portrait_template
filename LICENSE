@@ -8,32 +8,38 @@ This template ("Template") is created by Xen-Shuto ("Author") for creating
 Stellaris portrait mods. By downloading or using the Template, you agree to
 the following terms.
 
-1. PERMISSIONS
+1. COPYRIGHT
+Copyright (c) 2025 Xen-Shuto. All rights to the Template belong to the Author.
+
+2. PERMISSIONS
 You may download and modify the Template for local use. You may publish your
 own Stellaris portrait mods ("Work") based on this Template for non-commercial
 purposes. A "Work" is defined as a mod that possesses its own originality and
-is not a redistribution of the Template itself. Please include this license
-text with your Work.
+is not a redistribution of the Template itself.
 
-2. RESTRICTIONS
-You may not redistribute or publish the Template (or modified versions of it)
-as a "template" or "resource pack." You may not publish content in a way that
-misleads others to believe it is the original Template or an official update.
+3. RESTRICTIONS
+The following actions are strictly prohibited:
+- Redistributing or publishing the Template (or modified versions of it)
+  as a "template" or "resource pack."
+- Publishing any content in a way that misleads others to believe it is the
+  original Template or an authorized update provided by the Author.
+- Presenting this Template or derivative Works as official content from 
+  Paradox Interactive.
 
-3. COMMERCIAL USE
+4. COMMERCIAL USE
 Commercial use of the Template or any Work derived from it is prohibited.
 
-4. CREDITS (OPTIONAL)
-When publishing your Work, it would be appreciated if you include:
-- Credit to the Author: Xen‑Shuto
-- A link to the original Template: https://github.com/Xen-Shuto/species_portrait_template
+5. CREDITS (OPTIONAL)
+While not required, providing credit to "Xen-Shuto" and a link to the original
+repository is greatly appreciated and encourages the Author.
 
-
-5. DISCLAIMER AND LIABILITY
+6. DISCLAIMER AND LIABILITY
 THE TEMPLATE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHOR
 SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OF THE TEMPLATE.
+This Template is unofficial fan content and is not endorsed by or affiliated
+with Paradox Interactive.
 
-6. GOVERNING LAW AND UPDATES
+7. GOVERNING LAW AND UPDATES
 This license is governed by the laws of Japan. The Author reserves the right
 to update these terms at any time.
 
@@ -56,28 +62,31 @@ https://github.com/Xen-Shuto/species_portrait_template
 本テンプレートをダウンロードし、ローカル環境で改変することができます。
 本テンプレートを用いて制作したStellaris用ポートレートMOD（以下「作品」）
 を非商用目的で公開できます。なお、「作品」とは独自の独創性を備え、
-本テンプレート自体の再配布には当たらないものを指します。配布時には
-本ライセンス文を同梱してください。
+本テンプレート自体の再配布には当たらないものを指します。
 
 3. 禁止事項
-本テンプレート自体、または改変したものを「テンプレート」や「リソース
-パック」として再配布することを禁じます。また、本テンプレートの公式版
-であると誤認させるような方法での公開を禁じます。
+以下の行為を禁止します。
+・本テンプレート自体、または改変したものを「テンプレート」や「リソース
+　パック」として再配布することを禁じます。
+・本テンプレートのオリジナル、あるいは作者による正当なアップデートである
+　と誤認させるような方法でコンテンツを公開することを禁じます。
+・本テンプレートまたはそれを用いた作品を、Paradox Interactive による
+　公式コンテンツであるかのように見せて公開することを禁じます。
 
 4. 商用利用
 本テンプレート、および本テンプレートから派生した作品の商用利用を禁じます。
 
 5. お願い（任意）
-必須ではありませんが、作品の公開時に作者名のクレジットや出典リンクを
-記載していただけると、制作の励みになります。
-・作者名のクレジット： 空撰綴斗 / Xen‑Shuto
-・テンプレートの出典リンク： https://github.com/Xen-Shuto/species_portrait_template
+必須ではありませんが、作品の公開時に作者名（空撰綴斗 / Xen-Shuto）の
+クレジットや出典リンクを記載していただけると、制作の励みになります。
 
 6. 免責事項および責任の制限
 本テンプレートは「現状のまま」提供され、作者はいかなる保証も行いません。
-本テンプレートの利用によって生じた損害について、作者は一切の責任を
-負いません。利用者自身の責任においてご利用ください。
+本テンプレートは非公式のファンコンテンツであり、Paradox Interactiveと
+提携・承認されたものではありません。利用によって生じた損害について、
+作者は責任を負いません。
 
 7. 準拠法および更新
 本ライセンスは日本国の法律に準拠します。作者は、いつでも本条項を更新
 または変更する権利を留保します。
+
